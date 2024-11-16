@@ -27,6 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e4c7419-5130-460c-98ff-73e4682729b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/es/iesjandula/kahoot/database/SQLiteHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/es/iesjandula/kahoot/models/PreguntaModel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_jugar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -90,8 +92,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -131,6 +133,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\Pablo\Kahoot-Proyecto\app\src\main\java\es\iesjandula\kahoot\database" />
       <recent name="C:\Users\Usuario\Desktop\Pablo\Kahoot\Kahoot-Proyecto\app\src\main\res\font" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
