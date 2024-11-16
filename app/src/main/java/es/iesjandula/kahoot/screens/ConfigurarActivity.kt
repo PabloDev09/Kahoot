@@ -1,10 +1,11 @@
-package es.iesjandula.kahoot
+package es.iesjandula.kahoot.screens
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import es.iesjandula.kahoot.R
 
 class ConfigurarActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
