@@ -1,3 +1,0 @@
-es.iesjandula.kahoot.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

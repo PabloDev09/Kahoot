@@ -1,2 +1,0 @@
-es.iesjandula.kahoot.test:style/WhiteBackgroundTheme = 0x7f010001
-es.iesjandula.kahoot.test:style/WhiteBackgroundDialogTheme = 0x7f010000

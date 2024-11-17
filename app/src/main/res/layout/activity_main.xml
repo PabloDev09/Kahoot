@@ -1,4 +1,4 @@
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -25,6 +25,7 @@
             android:layout_width="57dp"
             android:layout_height="46dp"
             android:src="@mipmap/ic_home"
+            android:contentDescription="@string/icono_home"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -34,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserratblack"
-            android:text="KAHOOT!"
+            android:text="@string/kahoot"
             android:textColor="@color/white"
             android:textSize="36sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -56,7 +57,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mainAppbar"
-        app:cardMaxElevation="12dp">
+        app:cardMaxElevation="12dp"
+        tools:targetApi="p">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -67,7 +69,7 @@
                 android:id="@+id/cardTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Menu de opciones"
+                android:text="@string/menu_de_opciones"
                 android:textColor="#5F0F4E"
                 android:textSize="25sp"
                 android:fontFamily="@font/montserrat"
@@ -85,7 +87,7 @@
                 android:paddingTop="15dp"
                 android:paddingRight="30dp"
                 android:paddingBottom="15dp"
-                android:text="Configurar"
+                android:text="@string/configurar"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:fontFamily="@font/montserrat"
@@ -103,7 +105,7 @@
                 android:paddingTop="15dp"
                 android:paddingRight="50dp"
                 android:paddingBottom="15dp"
-                android:text="Jugar"
+                android:text="@string/jugar"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:fontFamily="@font/montserrat"
@@ -119,7 +121,7 @@
         android:id="@+id/footer"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Enrique Perez • Pablo Martínez"
+        android:text="@string/enrique_perez_pablo_mart_nez"
         android:textColor="@color/white"
         android:padding="12dp"
         android:gravity="center"

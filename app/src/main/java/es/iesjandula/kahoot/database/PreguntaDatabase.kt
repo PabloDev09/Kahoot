@@ -1,4 +1,4 @@
-package com.example.bbdd
+package es.iesjandula.kahoot.database
 
 import android.annotation.SuppressLint
 import android.content.ContentValues
@@ -27,10 +27,10 @@ class PreguntaDatabase(context: Context): SQLiteOpenHelper(context, DATABASE_NAM
 
     override fun onCreate(db: SQLiteDatabase?)
     {
-        val createTblStudent = ("CREATE TABLE "+ TBL_PREGUNTA+"("
-                + PREGUNTA+ " TEXT PRIMARY KEY,"+RESPUESTAPRIMERO+ " TEXT,"
-                + RESPUESTASEGUNDA+ " TEXT," +RESPUESTATERCERA+" TEXT, "
-                + RESPUESTACUARTA+" TEXT,"
+        val createTblStudent = ("CREATE TABLE "+ TBL_PREGUNTA +"("
+                + PREGUNTA + " TEXT PRIMARY KEY,"+ RESPUESTAPRIMERO + " TEXT,"
+                + RESPUESTASEGUNDA + " TEXT," + RESPUESTATERCERA +" TEXT, "
+                + RESPUESTACUARTA +" TEXT,"
                 + REFERENCIARESPUESTACORRECTA + " INTEGER" +
                 ")"
                 )
@@ -61,7 +61,7 @@ class PreguntaDatabase(context: Context): SQLiteOpenHelper(context, DATABASE_NAM
         return sucess
     }
 
-    @SuppressLint("Range")
+    @SuppressLint("Range", "Recycle")
     fun getAllStudent () : ArrayList<PreguntaModel>
     {
         val prgList: ArrayList<PreguntaModel> = ArrayList()

@@ -1,6 +1,7 @@
 package es.iesjandula.kahoot.screens
 
-import android.content.Intent
+
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -10,11 +11,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.bbdd.PreguntaDatabase
+import es.iesjandula.kahoot.database.PreguntaDatabase
 import es.iesjandula.kahoot.R
 import es.iesjandula.kahoot.models.PreguntaModel
 
 class ConfigurarActivity : AppCompatActivity() {
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -25,7 +27,7 @@ class ConfigurarActivity : AppCompatActivity() {
             insets
         }
 
-        findViewById<TextView>(R.id.tvNumeroPreguntasCreadas).append(PreguntaDatabase(this).getAllStudent().size.toString())
+        findViewById<TextView>(R.id.tvNumeroPreguntasCreadas).text = "Preguntas creadas: ${(PreguntaDatabase(this).getAllStudent().size.toString())}"
         val valoresEditTextList: List<EditText> = listOf(
             findViewById(R.id.etPreguntaInput),
             findViewById(R.id.etRespuesta1Input),
@@ -39,7 +41,7 @@ class ConfigurarActivity : AppCompatActivity() {
         btnGuardarPregunta.setOnClickListener {
             if (verificarCampos(valoresEditTextList, this)) {
                 // Crear objeto pregunta para insertar en la BBDD
-                val prg: PreguntaModel = PreguntaModel()
+                val prg = PreguntaModel()
 
                 // Asignar los valores a la pregunta a traves de la lista de EditText
                 asignarValores(prg, valoresEditTextList)
@@ -52,24 +54,32 @@ class ConfigurarActivity : AppCompatActivity() {
 
                 // Toast de creado correctamente
                 Toast.makeText(this, "Pregunta creada correctamente", Toast.LENGTH_LONG).show()
+
+
+                findViewById<TextView>(R.id.tvNumeroPreguntasCreadas).text = actualizarActivity()
             }
         }
     }
 
+    private fun actualizarActivity(): String {
+        // Obtiene el numero de preguntas actualizadas
+        return "Preguntas creadas: ${(PreguntaDatabase(this).getAllStudent().size.toString())}"
+    }
+
     private fun limpiarValoresEditView(valoresEditTextList: List<EditText>) {
         // Limpiar todos los EditText
-        for (i in 0..<valoresEditTextList.size) {
-            valoresEditTextList.get(i).text.clear()
+        for (editText in valoresEditTextList) {
+            editText .text.clear()
         }
     }
 
-    private fun asignarValores(prg: PreguntaModel, valoresEditTextList: List<EditText>, ) {
-        prg.pregunta = valoresEditTextList.get(0).text.toString()
-        prg.respuestaPrimera = valoresEditTextList.get(1).text.toString()
-        prg.respuestaSegunda = valoresEditTextList.get(2).text.toString()
-        prg.respuestaTercera = valoresEditTextList.get(3).text.toString()
-        prg.respuestaCuarta = valoresEditTextList.get(4).text.toString()
-        prg.referenciaRespuestaCorrecta = valoresEditTextList.get(5).text.toString().toInt()
+    private fun asignarValores(prg: PreguntaModel, valoresEditTextList: List<EditText>) {
+        prg.pregunta = valoresEditTextList[0].text.toString()
+        prg.respuestaPrimera = valoresEditTextList[1].text.toString()
+        prg.respuestaSegunda = valoresEditTextList[2].text.toString()
+        prg.respuestaTercera = valoresEditTextList[3].text.toString()
+        prg.respuestaCuarta = valoresEditTextList[4].text.toString()
+        prg.referenciaRespuestaCorrecta = valoresEditTextList[5].text.toString().toInt()
     }
 
 
@@ -90,7 +100,7 @@ class ConfigurarActivity : AppCompatActivity() {
 
         for (i in 0..<valoresEditTextList.size - 1) {
 
-            if (valoresEditTextList.get(i).text.isNullOrBlank()) {
+            if (valoresEditTextList[i].text.isNullOrBlank()) {
                 Toast.makeText(
                     configurarActivity,
                     "El campo ${i + 1} está vacio",

@@ -1,12 +1,12 @@
-#Sun Nov 17 00:55:04 CET 2024
+#Sun Nov 17 13:46:24 CET 2024
 base.0=C\:\\Users\\Usuario\\Desktop\\Pablo\\Kahoot-Proyecto\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Usuario\\Desktop\\Pablo\\Kahoot-Proyecto\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Usuario\\Desktop\\Pablo\\Kahoot-Proyecto\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.2=C\:\\Users\\Usuario\\Desktop\\Pablo\\Kahoot-Proyecto\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 base.3=C\:\\Users\\Usuario\\Desktop\\Pablo\\Kahoot-Proyecto\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
 base.4=C\:\\Users\\Usuario\\Desktop\\Pablo\\Kahoot-Proyecto\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
-path.2=15/classes.dex
+path.2=11/classes.dex
 path.3=4/classes.dex
 path.4=8/classes.dex
 renamed.0=classes.dex

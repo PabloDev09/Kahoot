@@ -5,7 +5,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.bbdd.PreguntaDatabase
 import es.iesjandula.kahoot.R
 
 class JugarActivity : AppCompatActivity() {
