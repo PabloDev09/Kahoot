@@ -16,4 +16,7 @@
     <string name="crear_nueva_pregunta">Crear nueva pregunta</string>
     <string name="preguntas_creadas">Preguntas creadas:</string>
     <string name="icono_configurar">Icono configurar</string>
+    <string name="salir">Atrás</string>
+    <string name="contestar">Contestar</string>
+    <string name="icono_jugar">Icono jugar</string>
 </resources>

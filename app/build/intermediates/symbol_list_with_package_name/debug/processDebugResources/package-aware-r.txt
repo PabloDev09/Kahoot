@@ -3197,8 +3197,9 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnConfigurar
-id btnGuardarButton
+id btnGuardar
 id btnJugar
+id btnSalir
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -4009,6 +4010,7 @@ string respuesta_1
 string respuesta_2
 string respuesta_3
 string respuesta_4
+string salir
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

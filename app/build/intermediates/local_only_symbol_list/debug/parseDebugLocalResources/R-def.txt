@@ -7,8 +7,9 @@ drawable ic_launcher_foreground
 font montserrat
 font montserratblack
 id btnConfigurar
-id btnGuardarButton
+id btnGuardar
 id btnJugar
+id btnSalir
 id cardContainer
 id cardContainerButtons
 id cardTitle
@@ -64,6 +65,7 @@ string respuesta_1
 string respuesta_2
 string respuesta_3
 string respuesta_4
+string salir
 style Base.Theme.Kahoot
 style Theme.Kahoot
 xml backup_rules

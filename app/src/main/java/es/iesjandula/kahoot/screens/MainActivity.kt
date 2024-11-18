@@ -34,8 +34,16 @@ class MainActivity : AppCompatActivity() {
         btnJugar.setOnClickListener{
              if(PreguntaDatabase(this).getAllStudent().size < 5)
              {
-                 Toast.makeText(this, "Hay solo ${PreguntaDatabase(this).getAllStudent().size} preguntas, es necesario 5 como mínimo", Toast.LENGTH_LONG).show()
+                 if(PreguntaDatabase(this).getAllStudent().size == 1)
+                 {
+                     Toast.makeText(this, "Hay ${PreguntaDatabase(this).getAllStudent().size} pregunta, es necesario 5 como mínimo", Toast.LENGTH_LONG).show()
+                 }
+                 else
+                 {
+                     Toast.makeText(this, "Hay ${PreguntaDatabase(this).getAllStudent().size} preguntas, es necesario 5 como mínimo", Toast.LENGTH_LONG).show()
+                 }
              }
+
              else
              {
                  intent = Intent(this, JugarActivity::class.java)

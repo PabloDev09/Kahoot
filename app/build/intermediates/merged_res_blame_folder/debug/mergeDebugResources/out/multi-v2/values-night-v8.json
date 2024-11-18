@@ -4,14 +4,14 @@
             "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-29:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\Desktop\\Pablo\\Kahoot-Proyecto\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\Usuario\\Desktop\\Kahoot\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "313"
+                        "endOffsets": "318"
                     },
                     "to": {
                         "startLines": "2",

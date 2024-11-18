@@ -19,6 +19,7 @@
     <string name="respuesta_2">Respuesta 2</string>
     <string name="respuesta_3">Respuesta 3</string>
     <string name="respuesta_4">Respuesta 4</string>
+    <string name="salir">Atrás</string>
     <style name="Base.Theme.Kahoot" parent="Theme.Material3.DayNight.NoActionBar">
         
         

@@ -134,7 +134,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:autofillHints="" android:backgroundTint="#5F0F4E"
+                android:autofillHints=""
+                android:backgroundTint="#5F0F4E"
                 android:fontFamily="@font/montserrat"
                 android:hint="@string/respuesta_3"
                 android:padding="12dp"
@@ -173,7 +174,7 @@
                 app:layout_constraintTop_toBottomOf="@id/etRespuesta4Input" />
 
             <Button
-                android:id="@+id/btnGuardarButton"
+                android:id="@+id/btnGuardar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -189,5 +190,13 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
-
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:text="@string/salir"
+        android:textColor="#5F0F4E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2133,6 +2133,7 @@
     <string name="respuesta_2">Respuesta 2</string>
     <string name="respuesta_3">Respuesta 3</string>
     <string name="respuesta_4">Respuesta 4</string>
+    <string name="salir">Atrás</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
     com.google.android.material.search.SearchBar$ScrollingViewBehavior

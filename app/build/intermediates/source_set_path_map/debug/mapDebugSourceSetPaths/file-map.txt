@@ -25,10 +25,10 @@ es.iesjandula.kahoot.app-activity-1.9.3-23 C:\Users\Usuario\.gradle\caches\trans
 es.iesjandula.kahoot.app-savedstate-1.2.1-24 C:\Users\Usuario\.gradle\caches\transforms-4\dbeeb3c605bce7af58a833c7ac9f0f3c\transformed\savedstate-1.2.1\res
 es.iesjandula.kahoot.app-viewpager2-1.0.0-25 C:\Users\Usuario\.gradle\caches\transforms-4\f064743b160f9dcc001c664190e03849\transformed\viewpager2-1.0.0\res
 es.iesjandula.kahoot.app-lifecycle-runtime-2.6.2-26 C:\Users\Usuario\.gradle\caches\transforms-4\f82036b8ff23e193f6150e74903ba837\transformed\lifecycle-runtime-2.6.2\res
-es.iesjandula.kahoot.app-pngs-27 C:\Users\Usuario\Desktop\Pablo\Kahoot-Proyecto\app\build\generated\res\pngs\debug
-es.iesjandula.kahoot.app-resValues-28 C:\Users\Usuario\Desktop\Pablo\Kahoot-Proyecto\app\build\generated\res\resValues\debug
-es.iesjandula.kahoot.app-packageDebugResources-29 C:\Users\Usuario\Desktop\Pablo\Kahoot-Proyecto\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-es.iesjandula.kahoot.app-packageDebugResources-30 C:\Users\Usuario\Desktop\Pablo\Kahoot-Proyecto\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-es.iesjandula.kahoot.app-debug-31 C:\Users\Usuario\Desktop\Pablo\Kahoot-Proyecto\app\build\intermediates\merged_res\debug\mergeDebugResources
-es.iesjandula.kahoot.app-debug-32 C:\Users\Usuario\Desktop\Pablo\Kahoot-Proyecto\app\src\debug\res
-es.iesjandula.kahoot.app-main-33 C:\Users\Usuario\Desktop\Pablo\Kahoot-Proyecto\app\src\main\res
+es.iesjandula.kahoot.app-pngs-27 C:\Users\Usuario\Desktop\Kahoot\app\build\generated\res\pngs\debug
+es.iesjandula.kahoot.app-resValues-28 C:\Users\Usuario\Desktop\Kahoot\app\build\generated\res\resValues\debug
+es.iesjandula.kahoot.app-packageDebugResources-29 C:\Users\Usuario\Desktop\Kahoot\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+es.iesjandula.kahoot.app-packageDebugResources-30 C:\Users\Usuario\Desktop\Kahoot\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+es.iesjandula.kahoot.app-debug-31 C:\Users\Usuario\Desktop\Kahoot\app\build\intermediates\merged_res\debug\mergeDebugResources
+es.iesjandula.kahoot.app-debug-32 C:\Users\Usuario\Desktop\Kahoot\app\src\debug\res
+es.iesjandula.kahoot.app-main-33 C:\Users\Usuario\Desktop\Kahoot\app\src\main\res
