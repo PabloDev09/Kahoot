@@ -19,13 +19,11 @@ import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
     private val tag = "MainActivityTag"
-    private val app = PreguntaApp
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-
 
         val toolbar = findViewById<Toolbar>(R.id.appBar)
         setSupportActionBar(toolbar)
@@ -36,42 +34,35 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val btnConfigurar = findViewById<Button>(R.id.btnConfigurar)
-        val btnJugar = findViewById<Button>(R.id.btnJugar)
+        val btnVer = findViewById<Button>(R.id.btnVer)
 
-        btnConfigurar.setOnClickListener {
 
-        }
-
-        Log.d(tag, "Antes de darle click")
-
-        btnJugar.setOnClickListener {
-
-        }
     }
 
-    private fun obtenerPreguntas(): Int {
-        var numeroPreguntas = 0
+    private suspend fun obtenerPreguntas(): Int {
+        return PreguntaApp.room.preguntaDao().getAll().size
+    }
+
+    private fun validarNumeroPreguntas() {
         lifecycleScope.launch {
-            numeroPreguntas = app.room.preguntaDao().getAll().size
-        }
-        return numeroPreguntas
-    }
+            try {
+                val numeroDePreguntas = obtenerPreguntas()
 
-    private fun validarNumeroPreguntas()
-    {
-        val numeroDePreguntas = obtenerPreguntas()
-
-        if (numeroDePreguntas < 8) {
-            val mensaje = if (numeroDePreguntas == 1) {
-                "Hay $numeroDePreguntas pregunta, es necesario 5 como mínimo"
-            } else {
-                "Hay $numeroDePreguntas preguntas, es necesario 5 como mínimo"
+                if (numeroDePreguntas < 5) { // Según el mensaje, debería ser 5 como mínimo
+                    val mensaje = if (numeroDePreguntas == 1) {
+                        "Hay $numeroDePreguntas pregunta, es necesario 5 como mínimo"
+                    } else {
+                        "Hay $numeroDePreguntas preguntas, es necesario 5 como mínimo"
+                    }
+                    Toast.makeText(this@MainActivity, mensaje, Toast.LENGTH_LONG).show()
+                } else {
+                    val intent = Intent(this@MainActivity, JugarActivity::class.java)
+                    startActivity(intent)
+                }
+            } catch (e: Exception) {
+                Log.e(tag, "Error al obtener preguntas: ${e.message}")
+                Toast.makeText(this@MainActivity, "Error al validar preguntas.", Toast.LENGTH_SHORT).show()
             }
-            Toast.makeText(this, mensaje, Toast.LENGTH_LONG).show()
-        } else {
-            val intent = Intent(this, JugarActivity::class.java)
-            startActivity(intent)
         }
     }
 
@@ -83,7 +74,8 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.actionconfigurar -> {
-                validarNumeroPreguntas()
+                val intent = Intent(this, ConfigurarActivity::class.java)
+                startActivity(intent)
                 true
             }
             R.id.actionjugar -> {

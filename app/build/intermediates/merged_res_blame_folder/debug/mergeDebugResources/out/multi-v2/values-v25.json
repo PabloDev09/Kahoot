@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-33:/values-v25/values-v25.xml",
+            "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-34:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\2DAM\\.gradle\\caches\\transforms-4\\d774d0834c14a98b277ffec2119f31cc\\transformed\\appcompat-1.7.0\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-4\\5ad52b65d3a0a7567870b51cffd9afaf\\transformed\\appcompat-1.7.0\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

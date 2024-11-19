@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Kahoot</string>
-    <string name="jugar">Jugar</string>
+    <string name="ver">Consultar</string>
     <string name="configurar">Configurar</string>
     <string name="enrique_perez_pablo_mart_nez">Enrique Perez • Pablo Martínez</string>
     <string name="kahoot">KAHOOT!</string>
-    <string name="menu_de_opciones">Menu de opciones</string>
+    <string name="menu_de_opciones">Información del jugador</string>
     <string name="icono_home">Icono home</string>
     <string name="guardar_pregunta">Guardar Pregunta</string>
     <string name="n_mero_de_respuesta_correcta_1_4">Número de respuesta correcta (1-4)</string>
@@ -20,4 +20,5 @@
     <string name="contestar">Contestar</string>
     <string name="icono_jugar">Icono jugar</string>
     <string name="pregunta_actual">Pregunta actual\n</string>
+    <string name="jugar">Jugar</string>
 </resources>

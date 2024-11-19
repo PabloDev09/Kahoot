@@ -95,7 +95,7 @@ class ConfigurarActivity : AppCompatActivity() {
     private fun asignarValores(valoresEditTextList: List<EditText>): Pregunta
     {
         return Pregunta(
-            pregunta = valoresEditTextList[0].toString(),
+            txPregunta = valoresEditTextList[0].toString(),
             respuesta1 =  valoresEditTextList[1].toString(),
             respuesta2 = valoresEditTextList[2].toString(),
             respuesta3 = valoresEditTextList[3].toString(),

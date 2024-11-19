@@ -9,8 +9,8 @@ import androidx.room.PrimaryKey
 data class Pregunta (
    @PrimaryKey(autoGenerate = true)
    //Hay que inicializarlo a 0 para que luego no se lo tengas que pasar al registro
-   @ColumnInfo(name = "id") val id: Int=0,
-   @ColumnInfo(name = "pregunta") val pregunta: String,
+   @ColumnInfo(name = "id_pregunta") val idPregunta: Int=0,
+   @ColumnInfo(name = "tx_pregunta") val txPregunta: String,
    @ColumnInfo(name = "respuesta1") val respuesta1: String,
    @ColumnInfo(name = "respuesta2") val respuesta2: String,
    @ColumnInfo(name = "respuesta3") val respuesta3: String,

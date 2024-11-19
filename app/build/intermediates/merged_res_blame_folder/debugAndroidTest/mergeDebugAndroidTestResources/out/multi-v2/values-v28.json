@@ -4,7 +4,7 @@
             "outputFile": "es.iesjandula.kahoot.test.app-mergeDebugAndroidTestResources-2:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\2DAM\\.gradle\\caches\\transforms-4\\7b932ef6a6edda8103c8daef8f5b4ce3\\transformed\\core-1.6.1\\res\\values-v28\\values.xml",
+                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-4\\7b932ef6a6edda8103c8daef8f5b4ce3\\transformed\\core-1.6.1\\res\\values-v28\\values.xml",
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",

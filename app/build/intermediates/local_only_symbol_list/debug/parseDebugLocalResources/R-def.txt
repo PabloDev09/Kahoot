@@ -10,16 +10,15 @@ font montserratblack
 id actionconfigurar
 id actionjugar
 id appBar
-id btnConfigurar
 id btnContestarJugar
 id btnGuardar
-id btnJugar
 id btnRespuesta1
 id btnRespuesta2
 id btnRespuesta3
 id btnRespuesta4
 id btnSalir
 id btnSalirJugar
+id btnVer
 id cardContainer
 id cardContainerButtons
 id cardJugarContainer
@@ -73,6 +72,7 @@ string respuesta_2
 string respuesta_3
 string respuesta_4
 string salir
+string ver
 style Base.Theme.Kahoot
 style Theme.Kahoot
 style Toolbar.TitleText

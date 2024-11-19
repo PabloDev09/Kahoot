@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-33:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
+            "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-34:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\2DAM\\.gradle\\caches\\transforms-4\\591f9ad7db763598ffd2ee701130ee57\\transformed\\material-1.12.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",
+                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-4\\24162943fb65dc47a8c442b5a11ca3da\\transformed\\material-1.12.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
