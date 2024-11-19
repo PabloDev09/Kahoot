@@ -7,6 +7,9 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 font montserrat
 font montserratblack
+id actionconfigurar
+id actionjugar
+id appBar
 id btnConfigurar
 id btnContestarJugar
 id btnGuardar
@@ -37,15 +40,13 @@ id jugarAppbar
 id jugarAppbarIcon
 id jugarAppbarTitle
 id main
-id mainAppbar
-id mainAppbarIcon
-id mainAppbarTitle
 id tvCardTitle
 id tvNumeroPreguntasCreadas
 id tvPreguntaActual
 layout activity_configurar
 layout activity_jugar
 layout activity_main
+menu menu_main
 mipmap ic_home
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -74,5 +75,6 @@ string respuesta_4
 string salir
 style Base.Theme.Kahoot
 style Theme.Kahoot
+style Toolbar.TitleText
 xml backup_rules
 xml data_extraction_rules

@@ -1,49 +1,28 @@
- <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="#1BA655A6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1BA655A6"
     tools:context=".screens.MainActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/mainAppbar"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/appBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="#5F0F4E"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:title="@string/kahoot"
+        android:titleTextColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-        <ImageView
-            android:id="@+id/mainAppbarIcon"
-            android:layout_width="57dp"
-            android:layout_height="46dp"
-            android:src="@mipmap/ic_home"
-            android:contentDescription="@string/icono_home"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/mainAppbarTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/montserratblack"
-            android:text="@string/kahoot"
-            android:textColor="@color/white"
-            android:textSize="36sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
+    <!-- CardView and other elements -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardContainerButtons"
         android:layout_width="match_parent"
@@ -56,9 +35,8 @@
         app:layout_constraintBottom_toTopOf="@+id/footer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainAppbar"
-        app:cardMaxElevation="12dp"
-        tools:targetApi="p">
+        app:layout_constraintTop_toBottomOf="@+id/appBar"
+        app:cardMaxElevation="12dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -77,7 +55,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginBottom="20dp"/>
+                android:layout_marginBottom="20dp" />
 
             <Button
                 android:id="@+id/btnConfigurar"
@@ -91,11 +69,11 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:fontFamily="@font/montserrat"
-                android:backgroundTint="#5F0F4E"
+                android:backgroundTint="#682359"
                 app:layout_constraintBottom_toTopOf="@+id/btnJugar"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardTitle"/>
+                app:layout_constraintTop_toBottomOf="@+id/cardTitle" />
 
             <Button
                 android:id="@+id/btnJugar"
@@ -110,13 +88,14 @@
                 android:textSize="20sp"
                 android:fontFamily="@font/montserrat"
                 android:layout_marginTop="15dp"
-                android:backgroundTint="#5F0F4E"
+                android:backgroundTint="#682359"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnConfigurar"/>
+                app:layout_constraintTop_toBottomOf="@+id/btnConfigurar" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
+    <!-- Footer -->
     <TextView
         android:id="@+id/footer"
         android:layout_width="0dp"
@@ -130,5 +109,5 @@
         android:fontFamily="@font/montserrat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

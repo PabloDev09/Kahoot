@@ -61,8 +61,6 @@ class ConfigurarActivity : AppCompatActivity() {
                 // Toast de creado correctamente
                 Toast.makeText(this, "Pregunta creada correctamente", Toast.LENGTH_LONG).show()
 
-
-
             }
         }
     }

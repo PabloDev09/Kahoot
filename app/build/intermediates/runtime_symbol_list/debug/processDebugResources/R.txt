@@ -3166,6 +3166,8 @@ int id action_mode_bar 0x7f090040
 int id action_mode_bar_stub 0x7f090041
 int id action_mode_close_button 0x7f090042
 int id action_text 0x7f090043
+int id actionconfigurar 0x7f09021b
+int id actionjugar 0x7f09021c
 int id actions 0x7f090044
 int id activity_chooser_view_content 0x7f090045
 int id add 0x7f090046
@@ -3178,6 +3180,7 @@ int id animateToEnd 0x7f09004c
 int id animateToStart 0x7f09004d
 int id antiClockwise 0x7f09004e
 int id anticipate 0x7f09004f
+int id appBar 0x7f09021a
 int id arc 0x7f090050
 int id asConfigured 0x7f090051
 int id async 0x7f090052
@@ -3370,9 +3373,6 @@ int id listMode 0x7f09010c
 int id list_item 0x7f09010d
 int id m3_side_sheet 0x7f09010e
 int id main 0x7f09010f
-int id mainAppbar 0x7f090110
-int id mainAppbarIcon 0x7f090111
-int id mainAppbarTitle 0x7f090112
 int id marquee 0x7f090113
 int id masked 0x7f090114
 int id match_constraint 0x7f090115
@@ -3830,6 +3830,7 @@ int layout select_dialog_item_material 0x7f0c006a
 int layout select_dialog_multichoice_material 0x7f0c006b
 int layout select_dialog_singlechoice_material 0x7f0c006c
 int layout support_simple_spinner_dropdown_item 0x7f0c006d
+int menu menu_main 0x7f140000
 int mipmap ic_home 0x7f0e0000
 int mipmap ic_launcher 0x7f0e0001
 int mipmap ic_launcher_round 0x7f0e0002
@@ -4767,6 +4768,7 @@ int style ThemeOverlay_MaterialComponents_TimePicker_Display_TextInputEditText 0
 int style ThemeOverlay_MaterialComponents_Toolbar_Popup_Primary 0x7f1102e5
 int style ThemeOverlay_MaterialComponents_Toolbar_Primary 0x7f1102e6
 int style ThemeOverlay_MaterialComponents_Toolbar_Surface 0x7f1102e7
+int style Toolbar_TitleText 0x7f110468
 int style Widget_AppCompat_ActionBar 0x7f1102e8
 int style Widget_AppCompat_ActionBar_Solid 0x7f1102e9
 int style Widget_AppCompat_ActionBar_TabBar 0x7f1102ea

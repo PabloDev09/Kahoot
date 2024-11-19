@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionconfigurar"
+        android:iconTint="@color/black"
+        android:icon="@mipmap/ic_settings"
+        android:title="@string/configurar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionjugar"
+        android:icon="@mipmap/ic_play"
+        android:title="@string/jugar"
+        app:showAsAction="never" />
+</menu>
