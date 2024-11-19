@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-29:/values-v24/values-v24.xml",
+            "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-33:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-4\\86c9a9e55dc8d45fef0ed473fafdfd97\\transformed\\material-1.12.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\2DAM\\.gradle\\caches\\transforms-4\\d774d0834c14a98b277ffec2119f31cc\\transformed\\appcompat-1.7.0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\2DAM\\.gradle\\caches\\transforms-4\\591f9ad7db763598ffd2ee701130ee57\\transformed\\material-1.12.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -20,16 +30,6 @@
                         "endLines": "4,5,6,7,10,13,16,19",
                         "endColumns": "84,98,86,100,10,10,10,10",
                         "endOffsets": "427,526,613,714,913,1126,1327,1542"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-4\\1faedc4b8ec8ce5d7c107129a27884bd\\transformed\\appcompat-1.7.0\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]

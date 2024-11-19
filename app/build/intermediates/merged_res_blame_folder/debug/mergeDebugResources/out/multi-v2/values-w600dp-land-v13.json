@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-29:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-33:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-4\\86c9a9e55dc8d45fef0ed473fafdfd97\\transformed\\material-1.12.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\2DAM\\.gradle\\caches\\transforms-4\\591f9ad7db763598ffd2ee701130ee57\\transformed\\material-1.12.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -19,4 +19,5 @@
     <string name="salir">Atrás</string>
     <string name="contestar">Contestar</string>
     <string name="icono_jugar">Icono jugar</string>
+    <string name="pregunta_actual">Pregunta actual\n</string>
 </resources>

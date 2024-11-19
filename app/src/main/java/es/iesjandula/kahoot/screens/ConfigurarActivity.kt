@@ -12,11 +12,14 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import es.iesjandula.kahoot.database.PreguntaDatabase
+import androidx.lifecycle.lifecycleScope
 import es.iesjandula.kahoot.R
-import es.iesjandula.kahoot.models.PreguntaModel
+import es.iesjandula.kahoot.models.Pregunta
+import es.iesjandula.kahoot.database.PreguntaApp
+import kotlinx.coroutines.launch
 
 class ConfigurarActivity : AppCompatActivity() {
+    private val app = PreguntaApp
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +31,7 @@ class ConfigurarActivity : AppCompatActivity() {
             insets
         }
 
-        findViewById<TextView>(R.id.tvNumeroPreguntasCreadas).text = "Preguntas creadas: ${(PreguntaDatabase(this).getAllStudent().size.toString())}"
+        findViewById<TextView>(R.id.tvNumeroPreguntasCreadas).text = obtenerPreguntas().toString()
         val valoresEditTextList: List<EditText> = listOf(
             findViewById(R.id.etPreguntaInput),
             findViewById(R.id.etRespuesta1Input),
@@ -47,13 +50,10 @@ class ConfigurarActivity : AppCompatActivity() {
         btnGuardarPregunta.setOnClickListener {
             if (verificarCampos(valoresEditTextList, this)) {
                 // Crear objeto pregunta para insertar en la BBDD
-                val prg = PreguntaModel()
-
-                // Asignar los valores a la pregunta a traves de la lista de EditText
-                asignarValores(prg, valoresEditTextList)
+                val prg = asignarValores(valoresEditTextList)
 
                 // Insertar la pregunta
-                PreguntaDatabase(this).insertStudent(prg)
+                insertarPregunta(prg)
 
                 // Limpiar los textos de los EditText
                 limpiarValoresEditView(valoresEditTextList)
@@ -62,37 +62,13 @@ class ConfigurarActivity : AppCompatActivity() {
                 Toast.makeText(this, "Pregunta creada correctamente", Toast.LENGTH_LONG).show()
 
 
-                findViewById<TextView>(R.id.tvNumeroPreguntasCreadas).text = actualizarActivity()
+
             }
         }
     }
 
-    private fun actualizarActivity(): String {
-        // Obtiene el numero de preguntas actualizadas
-        return "Preguntas creadas: ${(PreguntaDatabase(this).getAllStudent().size.toString())}"
-    }
-
-    private fun limpiarValoresEditView(valoresEditTextList: List<EditText>) {
-        // Limpiar todos los EditText
-        for (editText in valoresEditTextList) {
-            editText .text.clear()
-        }
-    }
-
-    private fun asignarValores(prg: PreguntaModel, valoresEditTextList: List<EditText>) {
-        prg.pregunta = valoresEditTextList[0].text.toString()
-        prg.respuestaPrimera = valoresEditTextList[1].text.toString()
-        prg.respuestaSegunda = valoresEditTextList[2].text.toString()
-        prg.respuestaTercera = valoresEditTextList[3].text.toString()
-        prg.respuestaCuarta = valoresEditTextList[4].text.toString()
-        prg.referenciaRespuestaCorrecta = valoresEditTextList[5].text.toString().toInt()
-    }
-
-
-    private fun verificarCampos(
-        valoresEditTextList: List<EditText>,
-        configurarActivity: ConfigurarActivity
-    ): Boolean {
+    private fun verificarCampos( valoresEditTextList: List<EditText>, configurarActivity: ConfigurarActivity): Boolean
+    {
         val campo5 = valoresEditTextList.last().text.toString()
 
         if (campo5.isBlank() || campo5.toIntOrNull() !in 1..4) {
@@ -117,6 +93,41 @@ class ConfigurarActivity : AppCompatActivity() {
         }
         return true
     }
+
+    private fun asignarValores(valoresEditTextList: List<EditText>): Pregunta
+    {
+        return Pregunta(
+            pregunta = valoresEditTextList[0].toString(),
+            respuesta1 =  valoresEditTextList[1].toString(),
+            respuesta2 = valoresEditTextList[2].toString(),
+            respuesta3 = valoresEditTextList[3].toString(),
+            respuesta4 = valoresEditTextList[4].toString(),
+            referenciaRespuestaCorrecta = valoresEditTextList[5].toString().toInt()
+        )
+    }
+
+    private fun limpiarValoresEditView(valoresEditTextList: List<EditText>)
+    {
+        // Limpiar todos los EditText
+        for (editText in valoresEditTextList) {
+            editText .text.clear()
+        }
+    }
+
+    private fun insertarPregunta(prg: Pregunta)
+    {
+        lifecycleScope.launch { app.room.preguntaDao().insert(prg)}
+    }
+
+    private fun obtenerPreguntas(): Int
+    {
+        var numeroPreguntas = 0
+        lifecycleScope.launch{
+            numeroPreguntas = app.room.preguntaDao().getAll().size
+        }
+        return numeroPreguntas
+    }
+
 }
 
 

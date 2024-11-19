@@ -2995,6 +2995,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_border
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3197,15 +3198,22 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnConfigurar
+id btnContestarJugar
 id btnGuardar
 id btnJugar
+id btnRespuesta1
+id btnRespuesta2
+id btnRespuesta3
+id btnRespuesta4
 id btnSalir
+id btnSalirJugar
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
 id cardContainer
 id cardContainerButtons
+id cardJugarContainer
 id cardTitle
 id carryVelocity
 id center
@@ -3234,11 +3242,9 @@ id configurarAppbarTitle
 id confirm_button
 id constraint
 id container
-id containerPregunta
 id content
 id contentPanel
 id contiguous
-id continuarButton
 id continuousVelocity
 id coordinator
 id cos
@@ -3349,6 +3355,7 @@ id italic
 id item_touch_helper_previous_elevation
 id jugar
 id jugarAppbar
+id jugarAppbarIcon
 id jugarAppbarTitle
 id jumpToEnd
 id jumpToStart
@@ -3447,10 +3454,6 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
-id opcion1
-id opcion2
-id opcion3
-id opcion4
 id open_search_bar_text_view
 id open_search_view_background
 id open_search_view_clear_button
@@ -3482,7 +3485,6 @@ id percent
 id pin
 id position
 id postLayout
-id preguntaTextView
 id pressed
 id progress_circular
 id progress_horizontal
@@ -3490,7 +3492,6 @@ id radio
 id ratio
 id rectangles
 id report_drawn
-id respuestasContraintLayout
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3610,6 +3611,7 @@ id transition_transform
 id triangle
 id tvCardTitle
 id tvNumeroPreguntasCreadas
+id tvPreguntaActual
 id unchecked
 id uniform
 id unlabeled
@@ -3832,6 +3834,7 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_home
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_play
 mipmap ic_settings
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -3882,6 +3885,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
 string configurar
+string contestar
 string crear_nueva_pregunta
 string enrique_perez_pablo_mart_nez
 string error_a11y_label
@@ -3894,6 +3898,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string icono_configurar
 string icono_home
+string icono_jugar
 string ingresa_tu_pregunta
 string item_view_role_description
 string jugar
@@ -4005,6 +4010,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pregunta_actual
 string preguntas_creadas
 string respuesta_1
 string respuesta_2

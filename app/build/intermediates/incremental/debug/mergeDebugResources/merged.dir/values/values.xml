@@ -1997,6 +1997,7 @@
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="configurar">Configurar</string>
+    <string name="contestar">Contestar</string>
     <string name="crear_nueva_pregunta">Crear nueva pregunta</string>
     <string name="enrique_perez_pablo_mart_nez">Enrique Perez • Pablo Martínez</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
@@ -2011,6 +2012,7 @@
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="icono_configurar">Icono configurar</string>
     <string name="icono_home">Icono home</string>
+    <string name="icono_jugar">Icono jugar</string>
     <string name="ingresa_tu_pregunta">Ingresa tu pregunta</string>
     <string name="item_view_role_description">Tab</string>
     <string name="jugar">Jugar</string>
@@ -2128,6 +2130,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="pregunta_actual">Pregunta actual\n</string>
     <string name="preguntas_creadas">Preguntas creadas:</string>
     <string name="respuesta_1">Respuesta 1</string>
     <string name="respuesta_2">Respuesta 2</string>

@@ -1,144 +1,161 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/jugar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1BA655A6"
     tools:context=".screens.JugarActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/jugarAppbar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#76008E"
-        android:padding="10dp"
+        android:background="#5F0F4E"
+        android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/jugarAppbarIcon"
+            android:layout_width="57dp"
+            android:layout_height="46dp"
+            android:src="@mipmap/ic_play"
+            android:contentDescription="@string/icono_jugar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/jugarAppbarTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="JUGAR"
+            android:text="@string/jugar"
             android:textColor="@color/white"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:fontFamily="@font/montserratblack"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/containerPregunta"
+    <TextView
+        android:id="@+id/tvPreguntaActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunta_actual"
+        android:textSize="18sp"
+        android:layout_margin="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardJugarContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jugarAppbar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardJugarContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/jugarAppbar"
-        app:layout_constraintBottom_toTopOf="@id/continuarButton"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="25dp"
+        android:outlineSpotShadowColor="#5F0F4E"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:padding="16dp"
-        >
-
-
-        <TextView
-            android:id="@+id/preguntaTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
-            android:text="Aquí irá la pregunta"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            />
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/jugarAppbar">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/respuestasContraintLayout"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/preguntaTextView"
-            android:layout_marginTop="16dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            >
-
+            android:padding="15dp">
 
             <Button
-                android:id="@+id/opcion1"
+                android:id="@+id/btnRespuesta1"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#76008E"
-                android:fontFamily="@font/montserrat"
-                android:text="Opción 1"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:text="@string/respuesta_1"
+                android:backgroundTint="@color/black"
                 android:textColor="@color/white"
+                android:textSize="16sp"
+                android:background="@drawable/button_border"
+                app:layout_constraintEnd_toStartOf="@id/btnRespuesta2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/opcion2"
-                />
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.4" />
 
             <Button
-                android:id="@+id/opcion2"
+                android:id="@+id/btnRespuesta2"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#76008E"
-                android:fontFamily="@font/montserrat"
-                android:text="Opción 2"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:text="@string/respuesta_2"
                 android:textColor="@color/white"
+                android:textSize="16sp"
+                android:background="@drawable/button_border"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btnRespuesta1"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/opcion1"
-                />
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.4" />
 
             <Button
-                android:id="@+id/opcion3"
+                android:id="@+id/btnRespuesta3"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#76008E"
-                android:fontFamily="@font/montserrat"
-                android:text="Opción 3"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:text="@string/respuesta_3"
                 android:textColor="@color/white"
-                app:layout_constraintEnd_toStartOf="@+id/opcion4"
+                android:textSize="16sp"
+                android:background="@drawable/button_border"
+                android:backgroundTint="@color/black"
+                app:layout_constraintEnd_toStartOf="@id/btnRespuesta4"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/opcion1" />
+                app:layout_constraintTop_toBottomOf="@id/btnRespuesta1"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.4" />
 
             <Button
-                android:id="@+id/opcion4"
+                android:id="@+id/btnRespuesta4"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#76008E"
-                android:fontFamily="@font/montserrat"
-                android:text="Opción 4"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:text="@string/respuesta_4"
                 android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="16sp"
+                android:background="@drawable/button_border"
                 app:layout_constraintEnd_toEndOf="parent"
-                />
-
-
+                app:layout_constraintStart_toEndOf="@id/btnRespuesta3"
+                app:layout_constraintTop_toBottomOf="@id/btnRespuesta2"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.4" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/continuarButton"
-        android:layout_width="0dp"
+        android:id="@+id/btnSalirJugar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="45dp"
-        android:paddingTop="15dp"
-        android:paddingRight="45dp"
-        android:paddingBottom="15dp"
-        android:text="Siguiente"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:fontFamily="@font/montserrat"
-        android:backgroundTint="#76008E"
+        android:backgroundTint="#00000000"
+        android:text="@string/salir"
+        android:textColor="#5F0F4E"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/btnContestarJugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:text="@string/contestar"
+        android:textColor="#5F0F4E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
