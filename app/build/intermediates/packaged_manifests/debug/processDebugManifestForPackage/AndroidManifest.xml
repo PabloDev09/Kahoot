@@ -30,8 +30,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Kahoot" >
-
-        <!-- Tus actividades -->
         <activity
             android:name="es.iesjandula.kahoot.screens.MainActivity"
             android:exported="true" >
@@ -47,6 +45,10 @@
         </activity>
         <activity
             android:name="es.iesjandula.kahoot.screens.JugarActivity"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="es.iesjandula.kahoot.screens.PreguntasActivity"
             android:exported="false" >
         </activity>
 

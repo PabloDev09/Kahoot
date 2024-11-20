@@ -2,13 +2,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/actionconfigurar"
-        android:iconTint="@color/black"
-        android:icon="@mipmap/ic_settings"
-        android:title="@string/configurar"
-        app:showAsAction="never" />
+        android:title="@string/configurar" />
     <item
         android:id="@+id/actionjugar"
-        android:icon="@mipmap/ic_play"
-        android:title="@string/jugar"
-        app:showAsAction="never" />
+        android:title="@string/ver" />
 </menu>

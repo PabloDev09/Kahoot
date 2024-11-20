@@ -19,7 +19,7 @@ import es.iesjandula.kahoot.database.PreguntaApp
 import kotlinx.coroutines.launch
 
 class ConfigurarActivity : AppCompatActivity() {
-    private val app = PreguntaApp
+    private val app = PreguntaApp()
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,7 +31,6 @@ class ConfigurarActivity : AppCompatActivity() {
             insets
         }
 
-        findViewById<TextView>(R.id.tvNumeroPreguntasCreadas).text = obtenerPreguntas().toString()
         val valoresEditTextList: List<EditText> = listOf(
             findViewById(R.id.etPreguntaInput),
             findViewById(R.id.etRespuesta1Input),
@@ -52,8 +51,6 @@ class ConfigurarActivity : AppCompatActivity() {
                 // Crear objeto pregunta para insertar en la BBDD
                 val prg = asignarValores(valoresEditTextList)
 
-                // Insertar la pregunta
-                insertarPregunta(prg)
 
                 // Limpiar los textos de los EditText
                 limpiarValoresEditView(valoresEditTextList)
@@ -112,19 +109,6 @@ class ConfigurarActivity : AppCompatActivity() {
         }
     }
 
-    private fun insertarPregunta(prg: Pregunta)
-    {
-        lifecycleScope.launch { app.room.preguntaDao().insert(prg)}
-    }
-
-    private fun obtenerPreguntas(): Int
-    {
-        var numeroPreguntas = 0
-        lifecycleScope.launch{
-            numeroPreguntas = app.room.preguntaDao().getAll().size
-        }
-        return numeroPreguntas
-    }
 
 }
 

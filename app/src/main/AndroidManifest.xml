@@ -14,7 +14,6 @@
         android:theme="@style/Theme.Kahoot"
         tools:targetApi="31">
 
-        <!-- Tus actividades -->
         <activity
             android:name=".screens.MainActivity"
             android:exported="true">
@@ -29,6 +28,10 @@
         </activity>
         <activity
             android:name=".screens.JugarActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".screens.PreguntasActivity"
             android:exported="false">
         </activity>
     </application>

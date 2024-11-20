@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Usuario\.gradle\caches\transforms-4\24162943fb65dc47a8c442b5a11ca3da\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Usuario\.gradle\caches\transforms-4\f947600fdfa6e4671d62cc93150b8fac\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Usuario\.gradle\caches\transforms-4\18a3f5de8d850955d8b2d0ed83ccb551\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
@@ -64,8 +64,8 @@ ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:4:5-
 	android:name
 		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:5:5-34:19
-INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:5:5-34:19
+ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:5:5-37:19
+INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:5:5-37:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Usuario\.gradle\caches\transforms-4\24162943fb65dc47a8c442b5a11ca3da\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Usuario\.gradle\caches\transforms-4\24162943fb65dc47a8c442b5a11ca3da\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Usuario\.gradle\caches\transforms-4\f947600fdfa6e4671d62cc93150b8fac\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
@@ -109,33 +109,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 	android:name
 		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:6:9-45
 activity#es.iesjandula.kahoot.screens.MainActivity
-ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:18:9-25:20
+ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:17:9-24:20
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:19:13-49
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:18:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:21:13-24:29
+ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:22:27-74
 activity#es.iesjandula.kahoot.screens.ConfigurarActivity
-ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:26:9-29:20
+ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:25:9-28:20
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:27:13-55
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:26:13-55
 activity#es.iesjandula.kahoot.screens.JugarActivity
-ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:30:9-33:20
+ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:29:9-32:20
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:32:13-37
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:31:13-50
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:30:13-50
+activity#es.iesjandula.kahoot.screens.PreguntasActivity
+ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:33:9-36:20
+	android:exported
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:34:13-54
 uses-sdk
 INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml

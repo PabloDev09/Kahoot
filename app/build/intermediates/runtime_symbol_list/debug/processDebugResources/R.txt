@@ -3105,13 +3105,13 @@ int id bottom 0x7f090059
 int id bounce 0x7f09005a
 int id btnContestarJugar 0x7f09005b
 int id btnGuardar 0x7f09005c
+int id btnJugar 0x7f0901ec
 int id btnRespuesta1 0x7f09005d
 int id btnRespuesta2 0x7f09005e
 int id btnRespuesta3 0x7f09005f
 int id btnRespuesta4 0x7f090060
 int id btnSalir 0x7f090061
 int id btnSalirJugar 0x7f090062
-int id btnVer 0x7f090063
 int id buttonPanel 0x7f090064
 int id cancel_button 0x7f090065
 int id cardContainer 0x7f090066
@@ -3362,6 +3362,10 @@ int id percent 0x7f09015a
 int id pin 0x7f09015b
 int id position 0x7f09015c
 int id postLayout 0x7f09015d
+int id preguntas 0x7f0901e8
+int id preguntasAppbar 0x7f0901e9
+int id preguntasAppbarIcon 0x7f0901ea
+int id preguntasAppbarTitle 0x7f0901eb
 int id pressed 0x7f09015e
 int id progress_circular 0x7f09015f
 int id progress_horizontal 0x7f090160
@@ -3617,6 +3621,7 @@ int layout abc_tooltip 0x7f0c001b
 int layout activity_configurar 0x7f0c001c
 int layout activity_jugar 0x7f0c001d
 int layout activity_main 0x7f0c001e
+int layout activity_pregunta 0x7f0c006e
 int layout custom_dialog 0x7f0c001f
 int layout design_bottom_navigation_item 0x7f0c0020
 int layout design_bottom_sheet_dialog 0x7f0c0021
@@ -3701,6 +3706,7 @@ int mipmap ic_home 0x7f0f0000
 int mipmap ic_launcher 0x7f0f0001
 int mipmap ic_launcher_round 0x7f0f0002
 int mipmap ic_play 0x7f0f0003
+int mipmap ic_questions 0x7f0f0005
 int mipmap ic_settings 0x7f0f0004
 int plurals mtrl_badge_content_description 0x7f100000
 int string abc_action_bar_home_description 0x7f110000
@@ -3753,6 +3759,7 @@ int string clear_text_end_icon_content_description 0x7f11002e
 int string configurar 0x7f11002f
 int string contestar 0x7f110030
 int string crear_nueva_pregunta 0x7f110031
+int string empezar 0x7f1100be
 int string enrique_perez_pablo_mart_nez 0x7f110032
 int string error_a11y_label 0x7f110033
 int string error_icon_content_description 0x7f110034
@@ -3769,6 +3776,7 @@ int string ingresa_tu_pregunta 0x7f11003e
 int string item_view_role_description 0x7f11003f
 int string jugar 0x7f110040
 int string kahoot 0x7f110041
+int string listado_preguntas 0x7f1100bd
 int string m3_exceed_max_badge_text_suffix 0x7f110042
 int string m3_ref_typeface_brand_medium 0x7f110043
 int string m3_ref_typeface_brand_regular 0x7f110044
@@ -3807,7 +3815,6 @@ int string material_timepicker_minute 0x7f110064
 int string material_timepicker_pm 0x7f110065
 int string material_timepicker_select_time 0x7f110066
 int string material_timepicker_text_input_mode_description 0x7f110067
-int string menu_de_opciones 0x7f110068
 int string mtrl_badge_numberless_content_description 0x7f110069
 int string mtrl_checkbox_button_icon_path_checked 0x7f11006a
 int string mtrl_checkbox_button_icon_path_group_name 0x7f11006b
@@ -3876,6 +3883,7 @@ int string path_password_eye 0x7f1100a9
 int string path_password_eye_mask_strike_through 0x7f1100aa
 int string path_password_eye_mask_visible 0x7f1100ab
 int string path_password_strike_through 0x7f1100ac
+int string pregunta 0x7f1100bc
 int string pregunta_actual 0x7f1100ad
 int string preguntas_creadas 0x7f1100ae
 int string respuesta_1 0x7f1100af

@@ -1,5 +1,6 @@
 package es.iesjandula.kahoot.database
 
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
@@ -10,6 +11,9 @@ import es.iesjandula.kahoot.models.Pregunta
 
 @Dao
 interface PreguntaDao {
+    @Query("Select * From Pregunta")
+    fun getAllLive(): LiveData<List<Pregunta>>
+
     @Query("Select * From Pregunta")
     suspend fun getAll(): List<Pregunta>
 

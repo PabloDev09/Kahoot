@@ -3106,13 +3106,13 @@ id bottom
 id bounce
 id btnContestarJugar
 id btnGuardar
+id btnJugar
 id btnRespuesta1
 id btnRespuesta2
 id btnRespuesta3
 id btnRespuesta4
 id btnSalir
 id btnSalirJugar
-id btnVer
 id buttonPanel
 id cancel_button
 id cardContainer
@@ -3363,6 +3363,10 @@ id percent
 id pin
 id position
 id postLayout
+id preguntas
+id preguntasAppbar
+id preguntasAppbarIcon
+id preguntasAppbarTitle
 id pressed
 id progress_circular
 id progress_horizontal
@@ -3618,6 +3622,7 @@ layout abc_tooltip
 layout activity_configurar
 layout activity_jugar
 layout activity_main
+layout activity_pregunta
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3702,6 +3707,7 @@ mipmap ic_home
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap ic_play
+mipmap ic_questions
 mipmap ic_settings
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -3754,6 +3760,7 @@ string clear_text_end_icon_content_description
 string configurar
 string contestar
 string crear_nueva_pregunta
+string empezar
 string enrique_perez_pablo_mart_nez
 string error_a11y_label
 string error_icon_content_description
@@ -3770,6 +3777,7 @@ string ingresa_tu_pregunta
 string item_view_role_description
 string jugar
 string kahoot
+string listado_preguntas
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3808,7 +3816,6 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
-string menu_de_opciones
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -3877,6 +3884,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pregunta
 string pregunta_actual
 string preguntas_creadas
 string respuesta_1
