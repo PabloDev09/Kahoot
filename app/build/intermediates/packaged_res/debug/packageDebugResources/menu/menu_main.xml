@@ -4,6 +4,6 @@
         android:id="@+id/actionconfigurar"
         android:title="@string/configurar" />
     <item
-        android:id="@+id/actionjugar"
+        android:id="@+id/actionconsultar"
         android:title="@string/ver" />
 </menu>

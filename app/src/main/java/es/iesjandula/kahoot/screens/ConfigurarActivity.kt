@@ -16,10 +16,11 @@ import androidx.lifecycle.lifecycleScope
 import es.iesjandula.kahoot.R
 import es.iesjandula.kahoot.models.Pregunta
 import es.iesjandula.kahoot.database.PreguntaApp
+import es.iesjandula.kahoot.database.PreguntaDb
 import kotlinx.coroutines.launch
 
 class ConfigurarActivity : AppCompatActivity() {
-    private val app = PreguntaApp()
+    private lateinit var database : PreguntaDb
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +31,7 @@ class ConfigurarActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
+        database = PreguntaDb.getDatabase(this)
         val valoresEditTextList: List<EditText> = listOf(
             findViewById(R.id.etPreguntaInput),
             findViewById(R.id.etRespuesta1Input),
@@ -41,6 +42,12 @@ class ConfigurarActivity : AppCompatActivity() {
         )
         val btnSalir = findViewById<Button>(R.id.btnSalir)
         val btnGuardarPregunta = findViewById<Button>(R.id.btnGuardar)
+        val tvNumeroPreguntas = findViewById<TextView>(R.id.tvNumeroPreguntasCreadas)
+
+        database.preguntaDao().getAllLive().observe(this) { listado ->
+            tvNumeroPreguntas.text = "Preguntas creadas: ${listado.size}"
+        }
+
 
         btnSalir.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
@@ -50,7 +57,6 @@ class ConfigurarActivity : AppCompatActivity() {
             if (verificarCampos(valoresEditTextList, this)) {
                 // Crear objeto pregunta para insertar en la BBDD
                 val prg = asignarValores(valoresEditTextList)
-
 
                 // Limpiar los textos de los EditText
                 limpiarValoresEditView(valoresEditTextList)

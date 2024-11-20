@@ -122,7 +122,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="ffffff" />
-                                                <entry key="imagePath" value="C:\Users\Usuario\AppData\Local\Temp\baseline_question_answer_24.xml" />
+                                                <entry key="imagePath" value="C:\Users\Usuario\AppData\Local\Temp\baseline_arrow_drop_down_circle_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -133,7 +133,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/question_answer/baseline_question_answer_24.xml" />
+                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/arrow_drop_down_circle/baseline_arrow_drop_down_circle_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -177,7 +177,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundColor" value="5f0f4e" />
-                                      <entry key="outputName" value="ic_questions" />
+                                      <entry key="outputName" value="ic_menu" />
                                     </map>
                                   </option>
                                 </PersistentState>

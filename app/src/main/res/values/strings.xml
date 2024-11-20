@@ -22,5 +22,7 @@
     <string name="icono_jugar">Icono jugar</string>
     <string name="pregunta_actual">Pregunta actual\n</string>
     <string name="jugar">Jugar</string>
-    <string name="empezar">Empezar</string>
+    <string name="empezar">Empezar juego</string>
+    <string name="selecciona_respuesta">Selecciona una respuesta</string>
+    <string name="bienvenido">Bienvenido a </string>
 </resources>

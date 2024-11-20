@@ -1,6 +1,8 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color moradononormal
+color moradonormal
 color white
 drawable button_border
 drawable ic_launcher_background
@@ -8,7 +10,7 @@ drawable ic_launcher_foreground
 font montserrat
 font montserratblack
 id actionconfigurar
-id actionjugar
+id actionconsultar
 id appBar
 id btnContestarJugar
 id btnGuardar
@@ -43,9 +45,12 @@ id preguntas
 id preguntasAppbar
 id preguntasAppbarIcon
 id preguntasAppbarTitle
+id tvBienvenido
 id tvCardTitle
+id tvKahoot
 id tvNumeroPreguntasCreadas
 id tvPreguntaActual
+id tvSeleccionaRespuesta
 layout activity_configurar
 layout activity_jugar
 layout activity_main
@@ -54,10 +59,12 @@ menu menu_main
 mipmap ic_home
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_menu
 mipmap ic_play
 mipmap ic_questions
 mipmap ic_settings
 string app_name
+string bienvenido
 string configurar
 string contestar
 string crear_nueva_pregunta
@@ -80,6 +87,7 @@ string respuesta_2
 string respuesta_3
 string respuesta_4
 string salir
+string selecciona_respuesta
 string ver
 style Base.Theme.Kahoot
 style Theme.Kahoot

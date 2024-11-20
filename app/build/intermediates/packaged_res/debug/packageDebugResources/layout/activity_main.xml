@@ -15,11 +15,40 @@
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
         android:title="@string/kahoot"
-        android:titleTextColor="@android:color/white"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight" />
+        style="@style/Toolbar.TitleText"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight"
+        app:menu="@menu/menu_main"/>
+
+    <TextView
+        android:id="@+id/tvBienvenido"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido"
+        android:paddingLeft="20dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toTopOf="@+id/cardContainerButtons"
+        app:layout_constraintEnd_toStartOf="@id/tvKahoot"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBar" />
+    <TextView
+        android:id="@+id/tvKahoot"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/kahoot"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:textColor="@color/moradononormal"
+        android:fontFamily="@font/montserratblack"
+        app:layout_constraintBottom_toTopOf="@+id/cardContainerButtons"
+        app:layout_constraintStart_toEndOf="@id/tvBienvenido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBar" />
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardContainerButtons"
@@ -58,7 +87,7 @@
                 android:id="@+id/btnJugar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#682359"
+                android:backgroundTint="#972A74"
                 android:fontFamily="@font/montserrat"
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
@@ -75,17 +104,16 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Footer -->
     <TextView
         android:id="@+id/footer"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/enrique_perez_pablo_mart_nez"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:padding="12dp"
-        android:gravity="center"
+        android:padding="15dp"
         android:background="#5F0F4E"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:fontFamily="@font/montserrat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

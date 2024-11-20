@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="moradononormal">#682359</color>
+    <color name="moradonormal">#972A74</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Kahoot</string>
+    <string name="bienvenido">Bienvenido a </string>
     <string name="configurar">Configurar</string>
     <string name="contestar">Contestar</string>
     <string name="crear_nueva_pregunta">Crear nueva pregunta</string>
-    <string name="empezar">Empezar</string>
+    <string name="empezar">Empezar juego</string>
     <string name="enrique_perez_pablo_mart_nez">Enrique Perez • Pablo Martínez</string>
     <string name="guardar_pregunta">Guardar Pregunta</string>
     <string name="icono_configurar">Icono configurar</string>
@@ -25,6 +28,7 @@
     <string name="respuesta_3">Respuesta 3</string>
     <string name="respuesta_4">Respuesta 4</string>
     <string name="salir">Atrás</string>
+    <string name="selecciona_respuesta">Selecciona una respuesta</string>
     <string name="ver">Consultar preguntas</string>
     <style name="Base.Theme.Kahoot" parent="Theme.Material3.DayNight.NoActionBar">
         
@@ -32,8 +36,8 @@
     </style>
     <style name="Theme.Kahoot" parent="Base.Theme.Kahoot"/>
     <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/montserratblack</item>
+        <item name="android:textSize">40sp</item>
     </style>
 </resources>

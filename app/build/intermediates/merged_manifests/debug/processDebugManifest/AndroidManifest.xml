@@ -52,11 +52,6 @@
             android:exported="false" >
         </activity>
 
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:directBootAware="true"
-            android:exported="false" />
-
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="es.iesjandula.kahoot.androidx-startup"
@@ -71,6 +66,11 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
