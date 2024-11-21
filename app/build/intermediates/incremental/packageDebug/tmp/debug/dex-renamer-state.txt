@@ -1,11 +1,11 @@
-#Wed Nov 20 20:49:20 CET 2024
-base.0=C\:\\Users\\Usuario\\Desktop\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Usuario\\Desktop\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Usuario\\Desktop\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\Users\\Usuario\\Desktop\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.4=C\:\\Users\\Usuario\\Desktop\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.5=C\:\\Users\\Usuario\\Desktop\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.6=C\:\\Users\\Usuario\\Desktop\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Thu Nov 21 11:43:25 CET 2024
+base.0=C\:\\Users\\2DAM\\Desktop\\programacionmultimedia\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\2DAM\\Desktop\\programacionmultimedia\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\2DAM\\Desktop\\programacionmultimedia\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=C\:\\Users\\2DAM\\Desktop\\programacionmultimedia\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.4=C\:\\Users\\2DAM\\Desktop\\programacionmultimedia\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.5=C\:\\Users\\2DAM\\Desktop\\programacionmultimedia\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.6=C\:\\Users\\2DAM\\Desktop\\programacionmultimedia\\Kahoot\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

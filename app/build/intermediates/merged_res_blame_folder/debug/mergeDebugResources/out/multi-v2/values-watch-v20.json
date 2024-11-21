@@ -4,7 +4,7 @@
             "outputFile": "es.iesjandula.kahoot.app-mergeDebugResources-34:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-4\\6a0421c348b4e455b3ef40a4429309da\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\2DAM\\.gradle\\caches\\transforms-4\\6a0421c348b4e455b3ef40a4429309da\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

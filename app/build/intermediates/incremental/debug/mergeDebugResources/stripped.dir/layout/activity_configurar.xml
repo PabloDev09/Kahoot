@@ -1,0 +1,203 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/configurar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1BA655A6"
+    tools:context=".screens.ConfigurarActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/configurarAppbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#5F0F4E"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/configurarAppbarIcon"
+            android:layout_width="57dp"
+            android:layout_height="46dp"
+            android:src="@mipmap/ic_settings"
+            android:contentDescription="@string/icono_configurar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/configurarAppbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/configurar"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:fontFamily="@font/montserratblack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvNumeroPreguntasCreadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preguntas_creadas"
+        android:textSize="18sp"
+        android:layout_margin="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/configurarAppbar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="30dp"
+        android:outlineSpotShadowColor="#5F0F4E"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/configurarAppbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tvCardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="@string/crear_nueva_pregunta"
+                android:textColor="#5F0F4E"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etPreguntaInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:backgroundTint="#5F0F4E"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/ingresa_tu_pregunta"
+                android:padding="12dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTitle" />
+
+            <EditText
+                android:id="@+id/etRespuesta1Input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:autofillHints=""
+                android:backgroundTint="#5F0F4E"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/respuesta_1"
+                android:padding="12dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etPreguntaInput" />
+
+            <EditText
+                android:id="@+id/etRespuesta2Input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:autofillHints="" android:backgroundTint="#5F0F4E"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/respuesta_2"
+                android:padding="12dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etRespuesta1Input" />
+
+            <EditText
+                android:id="@+id/etRespuesta3Input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:autofillHints=""
+                android:backgroundTint="#5F0F4E"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/respuesta_3"
+                android:padding="12dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etRespuesta2Input" />
+
+            <EditText
+                android:id="@+id/etRespuesta4Input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:autofillHints=""
+                android:backgroundTint="#5F0F4E"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/respuesta_4"
+                android:padding="12dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etRespuesta3Input" />
+
+            <EditText
+                android:id="@+id/etRespuestaCorrectaInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:autofillHints="" android:backgroundTint="#5F0F4E"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/n_mero_de_respuesta_correcta_1_4"
+                android:padding="12dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etRespuesta4Input" />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#5F0F4E"
+                android:fontFamily="@font/montserrat"
+                android:padding="12dp"
+                android:text="@string/guardar_pregunta"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etRespuestaCorrectaInput" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:text="@string/salir"
+        android:textColor="#5F0F4E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
