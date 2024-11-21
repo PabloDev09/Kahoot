@@ -31,5 +31,9 @@
     <string name="respuesta_3_dos">c)</string>
     <string name="respuesta_4_dos">d)</string>
     <string name="respuesta_correcta">Respuesta correcta: ?</string>
+    <string name="resultados">Resultados</string>
+    <string name="volver_menu">Volver al menú</string>
+    <string name="resultados_obtenidos">Resultados Obtenidos</string>
     <string name="todo">TODO</string>
+
 </resources>

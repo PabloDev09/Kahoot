@@ -4,8 +4,12 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xxhdpi\\ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xhdpi_ic_icon.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xhdpi\\ic_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xhdpi_ic_questions.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xhdpi\\ic_questions.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-mdpi_ic_play.png.flat",
@@ -16,36 +20,24 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-anydpi\\ic_play.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xhdpi_ic_action_name.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xhdpi\\ic_action_name.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable_ic_app_foreground.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable\\ic_app_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-hdpi_ic_play.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-hdpi\\ic_play.png"
     },
     {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\xml\\data_extraction_rules.xml"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-mdpi_ic_settings.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-mdpi\\ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_questions.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_questions.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_menu.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_menu.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable_button_border.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable\\button_border.xml"
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-anydpi_ic_questions.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-anydpi\\ic_questions.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xxhdpi_ic_icon.png.flat",
@@ -56,220 +48,8 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_consultar.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_settings.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_app.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_app.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\layout_activity_jugar.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_jugar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_menu.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_menu.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_app_background.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_app_background.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxxhdpi_ic_home.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxxhdpi\\ic_home.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-anydpi-v26_ic_app.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-anydpi-v26\\ic_app.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_play.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_play.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_settings.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_app.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_app.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_app_background.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_app_background.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_app_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_app_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xxhdpi_ic_action_name.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xxhdpi\\ic_action_name.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxxhdpi_ic_play.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxxhdpi\\ic_play.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xxxhdpi_ic_icon.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xxxhdpi\\ic_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_app_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_app_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\font_montserratblack.otf.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\font\\montserratblack.otf"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_app_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_app_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-mdpi_ic_action_name.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-mdpi\\ic_action_name.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_menu.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_menu.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\layout_activity_configurar.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_configurar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xxhdpi_ic_play.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xxhdpi\\ic_play.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxxhdpi_ic_app_background.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxxhdpi\\ic_app_background.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_play.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_play.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\layout_activity_pregunta.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_pregunta.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_app_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_app_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-mdpi_ic_icon.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-mdpi\\ic_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_settings.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_home.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_home.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\menu_menu_main.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\menu\\menu_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-anydpi-v26_ic_app_round.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-anydpi-v26\\ic_app_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-mdpi_ic_questions.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-mdpi\\ic_questions.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_app.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_app.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_configurar.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_configurar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xhdpi_ic_icon.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xhdpi\\ic_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xhdpi_ic_questions.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xhdpi\\ic_questions.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_questions.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_questions.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_app_background.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_app_background.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_app_background.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_app_background.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-anydpi_ic_questions.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-anydpi\\ic_questions.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-hdpi_ic_action_name.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-hdpi\\ic_action_name.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_play.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_play.png"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\font_montserrat.otf.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\font\\montserrat.otf"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_home.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_home.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxxhdpi_ic_app_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxxhdpi\\ic_app_round.webp"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-anydpi_ic_settings.xml.flat",
@@ -280,72 +60,60 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\layout_activity_jugar.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_jugar.xml"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_home.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_home.png"
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\layout_activity_resultados.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_resultados.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_settings.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_resultados.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_resultados.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\layout_view_pregunta_recycler.xml.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\view_pregunta_recycler.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-hdpi_ic_questions.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-hdpi\\ic_questions.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xxxhdpi_ic_icon.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xxxhdpi\\ic_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\font_montserratblack.otf.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\font\\montserratblack.otf"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-hdpi_ic_settings.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-hdpi\\ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-anydpi_ic_action_name.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-anydpi\\ic_action_name.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xhdpi_ic_settings.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xhdpi\\ic_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xxhdpi_ic_play.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xxhdpi\\ic_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\layout_activity_configurar.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_configurar.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xxhdpi_ic_questions.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xxhdpi\\ic_questions.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xhdpi_ic_questions.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xhdpi\\ic_questions.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxxhdpi_ic_questions.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxxhdpi\\ic_questions.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxxhdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxxhdpi\\ic_settings.png"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-xhdpi_ic_play.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-xhdpi\\ic_play.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_play.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_play.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable_ic_launcher_background.xml.flat",
@@ -356,23 +124,15 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-hdpi\\ic_icon.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_questions.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_questions.png"
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-mdpi_ic_icon.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-mdpi\\ic_icon.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxhdpi_ic_app.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxhdpi\\ic_app.webp"
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\menu\\menu_main.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-hdpi_ic_menu.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-hdpi\\ic_menu.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-mdpi_ic_home.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-mdpi\\ic_home.png"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\mipmap-xxxhdpi_ic_app.webp.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\mipmap-xxxhdpi\\ic_app.webp"
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-debug-36:\\drawable-mdpi_ic_questions.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\drawable-mdpi\\ic_questions.png"
     }
 ]

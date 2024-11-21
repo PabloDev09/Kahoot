@@ -30,10 +30,10 @@ es.iesjandula.kahoot.app-cardview-1.0.0-28 C:\Users\Usuario\.gradle\caches\trans
 es.iesjandula.kahoot.app-fragment-1.5.4-29 C:\Users\Usuario\.gradle\caches\transforms-4\f06911aa02b27e72bfd8aa4a72188a94\transformed\fragment-1.5.4\res
 es.iesjandula.kahoot.app-sqlite-2.4.0-30 C:\Users\Usuario\.gradle\caches\transforms-4\f8dd03b8ec0311a02b0562fb8799c3be\transformed\sqlite-2.4.0\res
 es.iesjandula.kahoot.app-recyclerview-1.1.0-31 C:\Users\Usuario\.gradle\caches\transforms-4\fa05c3f5aafd8f7670ee80c3f1bb7270\transformed\recyclerview-1.1.0\res
-es.iesjandula.kahoot.app-pngs-32 C:\Users\Usuario\Desktop\Kahoot\app\build\generated\res\pngs\debug
-es.iesjandula.kahoot.app-resValues-33 C:\Users\Usuario\Desktop\Kahoot\app\build\generated\res\resValues\debug
-es.iesjandula.kahoot.app-packageDebugResources-34 C:\Users\Usuario\Desktop\Kahoot\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-es.iesjandula.kahoot.app-packageDebugResources-35 C:\Users\Usuario\Desktop\Kahoot\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-es.iesjandula.kahoot.app-debug-36 C:\Users\Usuario\Desktop\Kahoot\app\build\intermediates\merged_res\debug\mergeDebugResources
-es.iesjandula.kahoot.app-debug-37 C:\Users\Usuario\Desktop\Kahoot\app\src\debug\res
-es.iesjandula.kahoot.app-main-38 C:\Users\Usuario\Desktop\Kahoot\app\src\main\res
+es.iesjandula.kahoot.app-pngs-32 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\build\generated\res\pngs\debug
+es.iesjandula.kahoot.app-resValues-33 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\build\generated\res\resValues\debug
+es.iesjandula.kahoot.app-packageDebugResources-34 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+es.iesjandula.kahoot.app-packageDebugResources-35 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+es.iesjandula.kahoot.app-debug-36 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\build\intermediates\merged_res\debug\mergeDebugResources
+es.iesjandula.kahoot.app-debug-37 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\debug\res
+es.iesjandula.kahoot.app-main-38 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\res

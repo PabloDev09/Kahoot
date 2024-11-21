@@ -33,10 +33,13 @@
     <string name="respuesta_4">Respuesta 4</string>
     <string name="respuesta_4_dos">d)</string>
     <string name="respuesta_correcta">Respuesta correcta: ?</string>
+    <string name="resultados">Resultados</string>
+    <string name="resultados_obtenidos">Resultados Obtenidos</string>
     <string name="salir">Atrás</string>
     <string name="selecciona_respuesta">Selecciona una respuesta</string>
     <string name="todo">TODO</string>
     <string name="ver">Consultar preguntas</string>
+    <string name="volver_menu">Volver al menú</string>
     <style name="Base.Theme.Kahoot" parent="Theme.Material3.DayNight.NoActionBar">
         
         

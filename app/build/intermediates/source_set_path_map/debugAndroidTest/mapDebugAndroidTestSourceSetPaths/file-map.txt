@@ -1,6 +1,6 @@
 es.iesjandula.kahoot.test.app-core-1.6.1-0 C:\Users\Usuario\.gradle\caches\transforms-4\3fc47445602ade0169660e604eaf34c2\transformed\core-1.6.1\res
 es.iesjandula.kahoot.test.app-tracing-1.2.0-1 C:\Users\Usuario\.gradle\caches\transforms-4\b915bd0c6ef30ea8bb637fc746d9bf18\transformed\tracing-1.2.0\res
-es.iesjandula.kahoot.test.app-androidTest-2 C:\Users\Usuario\Desktop\Kahoot\app\build\generated\res\resValues\androidTest\debug
-es.iesjandula.kahoot.test.app-mergeDebugAndroidTestResources-3 C:\Users\Usuario\Desktop\Kahoot\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-es.iesjandula.kahoot.test.app-mergeDebugAndroidTestResources-4 C:\Users\Usuario\Desktop\Kahoot\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-es.iesjandula.kahoot.test.app-debugAndroidTest-5 C:\Users\Usuario\Desktop\Kahoot\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+es.iesjandula.kahoot.test.app-androidTest-2 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\build\generated\res\resValues\androidTest\debug
+es.iesjandula.kahoot.test.app-mergeDebugAndroidTestResources-3 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+es.iesjandula.kahoot.test.app-mergeDebugAndroidTestResources-4 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+es.iesjandula.kahoot.test.app-debugAndroidTest-5 C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

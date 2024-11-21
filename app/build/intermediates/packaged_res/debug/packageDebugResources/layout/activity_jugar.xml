@@ -51,7 +51,6 @@
         android:text="@string/pregunta_actual"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/cardJugarContainer"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/jugarAppbar" />
@@ -61,7 +60,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
-        android:outlineSpotShadowColor="#5F0F4E"
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,8 +83,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/btnRespuesta1"
-                />
+                app:layout_constraintBottom_toTopOf="@id/btnRespuesta1" />
 
             <Button
                 android:id="@+id/btnRespuesta1"
@@ -99,8 +96,7 @@
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvSeleccionaRespuesta"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/tvSeleccionaRespuesta" />
 
             <Button
                 android:id="@+id/btnRespuesta2"
@@ -113,8 +109,7 @@
                 android:backgroundTint="@color/colortema"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/btnRespuesta1"
-               />
+                app:layout_constraintTop_toBottomOf="@id/btnRespuesta1" />
 
             <Button
                 android:id="@+id/btnRespuesta3"
@@ -127,8 +122,7 @@
                 android:backgroundTint="@color/colortema"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/btnRespuesta2"
-/>
+                app:layout_constraintTop_toBottomOf="@id/btnRespuesta2" />
 
             <Button
                 android:id="@+id/btnRespuesta4"
@@ -141,9 +135,7 @@
                 android:backgroundTint="@color/colortema"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/btnRespuesta3"
-/>
-
+                app:layout_constraintTop_toBottomOf="@id/btnRespuesta3" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 

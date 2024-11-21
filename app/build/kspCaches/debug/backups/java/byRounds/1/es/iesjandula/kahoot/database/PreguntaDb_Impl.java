@@ -28,20 +28,24 @@ import javax.annotation.processing.Generated;
 public final class PreguntaDb_Impl extends PreguntaDb {
   private volatile PreguntaDao _preguntaDao;
 
+  private volatile RespuestaDao _respuestaDao;
+
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(2) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `Pregunta` (`id_pregunta` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `tx_pregunta` TEXT NOT NULL, `respuesta1` TEXT NOT NULL, `respuesta2` TEXT NOT NULL, `respuesta3` TEXT NOT NULL, `respuesta4` TEXT NOT NULL, `referenciaRespuestaCorrecta` INTEGER NOT NULL)");
+        db.execSQL("CREATE TABLE IF NOT EXISTS `Respuesta` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `idPregunta` INTEGER NOT NULL, `respuestaSeleccionada` TEXT NOT NULL, `esCorrecta` INTEGER NOT NULL)");
         db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd5067d8426f0ecaf7c5e8fea95072f43')");
+        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'fb8800909c3aa6e388c89cedd6d4c7c0')");
       }
 
       @Override
       public void dropAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("DROP TABLE IF EXISTS `Pregunta`");
+        db.execSQL("DROP TABLE IF EXISTS `Respuesta`");
         final List<? extends RoomDatabase.Callback> _callbacks = mCallbacks;
         if (_callbacks != null) {
           for (RoomDatabase.Callback _callback : _callbacks) {
@@ -102,9 +106,23 @@ public final class PreguntaDb_Impl extends PreguntaDb {
                   + " Expected:\n" + _infoPregunta + "\n"
                   + " Found:\n" + _existingPregunta);
         }
+        final HashMap<String, TableInfo.Column> _columnsRespuesta = new HashMap<String, TableInfo.Column>(4);
+        _columnsRespuesta.put("id", new TableInfo.Column("id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsRespuesta.put("idPregunta", new TableInfo.Column("idPregunta", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsRespuesta.put("respuestaSeleccionada", new TableInfo.Column("respuestaSeleccionada", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsRespuesta.put("esCorrecta", new TableInfo.Column("esCorrecta", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        final HashSet<TableInfo.ForeignKey> _foreignKeysRespuesta = new HashSet<TableInfo.ForeignKey>(0);
+        final HashSet<TableInfo.Index> _indicesRespuesta = new HashSet<TableInfo.Index>(0);
+        final TableInfo _infoRespuesta = new TableInfo("Respuesta", _columnsRespuesta, _foreignKeysRespuesta, _indicesRespuesta);
+        final TableInfo _existingRespuesta = TableInfo.read(db, "Respuesta");
+        if (!_infoRespuesta.equals(_existingRespuesta)) {
+          return new RoomOpenHelper.ValidationResult(false, "Respuesta(es.iesjandula.kahoot.models.Respuesta).\n"
+                  + " Expected:\n" + _infoRespuesta + "\n"
+                  + " Found:\n" + _existingRespuesta);
+        }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "d5067d8426f0ecaf7c5e8fea95072f43", "aa4cfdbc03b93c478d1fd9c69fcf4a3d");
+    }, "fb8800909c3aa6e388c89cedd6d4c7c0", "bcb9898fa6945ef7aaec8c8df841f11b");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(config.context).name(config.name).callback(_openCallback).build();
     final SupportSQLiteOpenHelper _helper = config.sqliteOpenHelperFactory.create(_sqliteConfig);
     return _helper;
@@ -115,7 +133,7 @@ public final class PreguntaDb_Impl extends PreguntaDb {
   protected InvalidationTracker createInvalidationTracker() {
     final HashMap<String, String> _shadowTablesMap = new HashMap<String, String>(0);
     final HashMap<String, Set<String>> _viewTables = new HashMap<String, Set<String>>(0);
-    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "Pregunta");
+    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "Pregunta","Respuesta");
   }
 
   @Override
@@ -125,6 +143,7 @@ public final class PreguntaDb_Impl extends PreguntaDb {
     try {
       super.beginTransaction();
       _db.execSQL("DELETE FROM `Pregunta`");
+      _db.execSQL("DELETE FROM `Respuesta`");
       super.setTransactionSuccessful();
     } finally {
       super.endTransaction();
@@ -140,6 +159,7 @@ public final class PreguntaDb_Impl extends PreguntaDb {
   protected Map<Class<?>, List<Class<?>>> getRequiredTypeConverters() {
     final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
     _typeConvertersMap.put(PreguntaDao.class, PreguntaDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(RespuestaDao.class, RespuestaDao_Impl.getRequiredConverters());
     return _typeConvertersMap;
   }
 
@@ -168,6 +188,20 @@ public final class PreguntaDb_Impl extends PreguntaDb {
           _preguntaDao = new PreguntaDao_Impl(this);
         }
         return _preguntaDao;
+      }
+    }
+  }
+
+  @Override
+  public RespuestaDao respuestaDao() {
+    if (_respuestaDao != null) {
+      return _respuestaDao;
+    } else {
+      synchronized(this) {
+        if(_respuestaDao == null) {
+          _respuestaDao = new RespuestaDao_Impl(this);
+        }
+        return _respuestaDao;
       }
     }
   }

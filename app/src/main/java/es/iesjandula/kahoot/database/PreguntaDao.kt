@@ -7,6 +7,7 @@ import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
 import es.iesjandula.kahoot.models.Pregunta
+import es.iesjandula.kahoot.models.Respuesta
 
 
 @Dao
@@ -28,4 +29,22 @@ interface PreguntaDao {
 
     @Delete
     suspend fun delete(pregunta: Pregunta)
+
+    @Query("SELECT * FROM Pregunta")
+    fun getAllPreguntas(): List<Pregunta>
+
+    @Insert
+    fun insertPregunta(pregunta: Pregunta)
+
+    @Update
+    fun updatePregunta(pregunta: Pregunta)
+
+    @Insert
+    suspend fun insertRespuesta(respuesta: Respuesta)
+
+    @Query("SELECT * FROM Respuesta WHERE idPregunta = :idPregunta")
+    suspend fun getRespuestasByPregunta(idPregunta: Int): List<Respuesta>
+
+    @Query("SELECT COUNT(*) FROM Respuesta WHERE esCorrecta = 1")
+    suspend fun contarRespuestasCorrectas(): Int
 }
