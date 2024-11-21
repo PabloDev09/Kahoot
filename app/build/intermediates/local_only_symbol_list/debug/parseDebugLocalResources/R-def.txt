@@ -3,6 +3,7 @@ local
 color black
 color colortema
 color colortemalight
+color red
 color white
 drawable ic_icon
 drawable ic_launcher_background
@@ -16,6 +17,7 @@ id actionconfigurar
 id actionconsultar
 id appBar
 id appBarIcon
+id btnBorrar
 id btnContestarJugar
 id btnGuardar
 id btnJugar
@@ -82,6 +84,7 @@ string bienvenido
 string configurar
 string contestar
 string crear_nueva_pregunta
+string eliminar_pregunta
 string empezar
 string enrique_perez_pablo_mart_nez
 string guardar_pregunta

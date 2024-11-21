@@ -9,10 +9,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import es.iesjandula.kahoot.R
 import es.iesjandula.kahoot.database.PreguntaDb
+import es.iesjandula.kahoot.models.Pregunta
 
 class ConsultarActivity : AppCompatActivity() {
     private lateinit var database: PreguntaDb

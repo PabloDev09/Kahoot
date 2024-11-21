@@ -20,8 +20,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/tvTitle"
@@ -51,8 +50,7 @@
                 android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvTitle"
-                />
+                app:layout_constraintTop_toBottomOf="@id/tvTitle" />
 
             <TextView
                 android:id="@+id/tvRespuesta1"
@@ -66,8 +64,7 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvPregunta"
-                />
+                app:layout_constraintTop_toBottomOf="@id/tvPregunta" />
 
             <TextView
                 android:id="@+id/tvRespuesta2"
@@ -81,8 +78,7 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvRespuesta1"
-                />
+                app:layout_constraintTop_toBottomOf="@id/tvRespuesta1" />
 
             <TextView
                 android:id="@+id/tvRespuesta3"
@@ -96,8 +92,7 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvRespuesta2"
-                />
+                app:layout_constraintTop_toBottomOf="@id/tvRespuesta2" />
 
             <TextView
                 android:id="@+id/tvRespuesta4"
@@ -111,8 +106,7 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvRespuesta3"
-                />
+                app:layout_constraintTop_toBottomOf="@id/tvRespuesta3" />
 
             <TextView
                 android:id="@+id/tvReferenciaRespuesta"
@@ -127,9 +121,21 @@
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvRespuesta4"
-                app:layout_constraintBottom_toBottomOf="parent"
-                />
+                app:layout_constraintTop_toBottomOf="@id/tvRespuesta4" />
+
+
+            <Button
+                android:id="@+id/btnBorrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/colortema"
+                android:text="@string/eliminar_pregunta"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvReferenciaRespuesta"
+                app:layout_constraintBottom_toBottomOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

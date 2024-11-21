@@ -24,7 +24,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Usuario\AppData\Local\Temp\baseline_question_mark_24.xml" />
+                                                <entry key="imagePath" value="C:\Users\Usuario\AppData\Local\Temp\baseline_library_books_24.xml" />
                                                 <entry key="opacityPercent" value="80" />
                                               </map>
                                             </option>
@@ -36,7 +36,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/question_mark/baseline_question_mark_24.xml" />
+                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/library_books/baseline_library_books_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -81,9 +81,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="assetType" value="IMAGE" />
                                       <entry key="imageAsset" value="C:\Users\Usuario\Downloads\icons8-kahoot-50.png" />
-                                      <entry key="outputName" value="ic_icon" />
+                                      <entry key="outputName" value="ic_answer" />
                                       <entry key="theme" value="CUSTOM" />
                                       <entry key="themeColor" value="ffffff" />
                                     </map>
@@ -101,7 +100,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="C:\Users\Usuario\Downloads\unnamed.png" />
+                                                <entry key="imagePath" value="C:\Users\Usuario\Downloads" />
                                                 <entry key="scalingPercent" value="69" />
                                               </map>
                                             </option>

@@ -35,5 +35,6 @@
     <string name="volver_menu">Volver al menú</string>
     <string name="resultados_obtenidos">Resultados Obtenidos</string>
     <string name="todo">TODO</string>
+    <string name="eliminar_pregunta">Eliminar pregunta</string>
 
 </resources>

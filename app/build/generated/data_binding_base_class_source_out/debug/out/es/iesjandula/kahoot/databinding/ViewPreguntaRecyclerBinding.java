@@ -4,6 +4,7 @@ package es.iesjandula.kahoot.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,6 +20,9 @@ import java.lang.String;
 public final class ViewPreguntaRecyclerBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final Button btnBorrar;
 
   @NonNull
   public final CardView cardContainerPreguntas;
@@ -44,12 +48,13 @@ public final class ViewPreguntaRecyclerBinding implements ViewBinding {
   @NonNull
   public final TextView tvTitle;
 
-  private ViewPreguntaRecyclerBinding(@NonNull ConstraintLayout rootView,
+  private ViewPreguntaRecyclerBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnBorrar,
       @NonNull CardView cardContainerPreguntas, @NonNull TextView tvPregunta,
       @NonNull TextView tvReferenciaRespuesta, @NonNull TextView tvRespuesta1,
       @NonNull TextView tvRespuesta2, @NonNull TextView tvRespuesta3,
       @NonNull TextView tvRespuesta4, @NonNull TextView tvTitle) {
     this.rootView = rootView;
+    this.btnBorrar = btnBorrar;
     this.cardContainerPreguntas = cardContainerPreguntas;
     this.tvPregunta = tvPregunta;
     this.tvReferenciaRespuesta = tvReferenciaRespuesta;
@@ -87,6 +92,12 @@ public final class ViewPreguntaRecyclerBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnBorrar;
+      Button btnBorrar = ViewBindings.findChildViewById(rootView, id);
+      if (btnBorrar == null) {
+        break missingId;
+      }
+
       id = R.id.cardContainerPreguntas;
       CardView cardContainerPreguntas = ViewBindings.findChildViewById(rootView, id);
       if (cardContainerPreguntas == null) {
@@ -135,9 +146,9 @@ public final class ViewPreguntaRecyclerBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ViewPreguntaRecyclerBinding((ConstraintLayout) rootView, cardContainerPreguntas,
-          tvPregunta, tvReferenciaRespuesta, tvRespuesta1, tvRespuesta2, tvRespuesta3, tvRespuesta4,
-          tvTitle);
+      return new ViewPreguntaRecyclerBinding((ConstraintLayout) rootView, btnBorrar,
+          cardContainerPreguntas, tvPregunta, tvReferenciaRespuesta, tvRespuesta1, tvRespuesta2,
+          tvRespuesta3, tvRespuesta4, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

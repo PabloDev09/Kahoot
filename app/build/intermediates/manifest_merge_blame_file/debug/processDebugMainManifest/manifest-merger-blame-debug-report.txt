@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:4:5-67
-11-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:4:22-64
 12
 13    <permission
 13-->[androidx.core:core:1.15.0] C:\Users\Usuario\.gradle\caches\transforms-4\24de8e9005dafbb49a6bad7af3bcd6df\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
@@ -24,71 +24,71 @@
 17-->[androidx.core:core:1.15.0] C:\Users\Usuario\.gradle\caches\transforms-4\24de8e9005dafbb49a6bad7af3bcd6df\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:5:5-39:19
+19-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:5:5-39:19
 20        android:name="es.iesjandula.kahoot.database.PreguntaApp"
-20-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:6:9-45
+20-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:6:9-45
 21        android:allowBackup="true"
-21-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:7:9-35
+21-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:7:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.15.0] C:\Users\Usuario\.gradle\caches\transforms-4\24de8e9005dafbb49a6bad7af3bcd6df\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:8:9-65
+23-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:8:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:9:9-54
+26-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:9:9-54
 27        android:icon="@drawable/ic_icon"
-27-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:10:9-41
+27-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:10:9-41
 28        android:label=""
-28-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:11:9-25
+28-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:11:9-25
 29        android:roundIcon="@android:drawable/ic_menu_info_details"
-29-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:12:9-67
+29-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:12:9-67
 30        android:supportsRtl="true"
-30-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:13:9-35
+30-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:13:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.Kahoot" >
-32-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:14:9-44
+32-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:14:9-44
 33        <activity
-33-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:17:9-24:20
+33-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:17:9-24:20
 34            android:name="es.iesjandula.kahoot.screens.MainActivity"
-34-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:18:13-49
+34-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:18:13-49
 35            android:exported="true" >
-35-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:19:13-36
+35-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:19:13-36
 36            <intent-filter>
-36-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:20:13-23:29
+36-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:20:13-23:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:21:17-69
-37-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:21:25-66
+37-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:21:17-69
+37-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:21:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:22:17-77
-39-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:22:27-74
+39-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:22:17-77
+39-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:22:27-74
 40            </intent-filter>
 41        </activity>
 42        <activity
-42-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:25:9-28:20
+42-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:25:9-28:20
 43            android:name="es.iesjandula.kahoot.screens.ConfigurarActivity"
-43-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:26:13-55
+43-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:26:13-55
 44            android:exported="false" >
-44-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:27:13-37
+44-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:27:13-37
 45        </activity>
 46        <activity
-46-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:29:9-32:20
+46-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:29:9-32:20
 47            android:name="es.iesjandula.kahoot.screens.JugarActivity"
-47-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:30:13-50
+47-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:30:13-50
 48            android:exported="false" >
-48-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:31:13-37
+48-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:31:13-37
 49        </activity>
 50        <activity
-50-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:33:9-36:20
+50-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:33:9-36:20
 51            android:name="es.iesjandula.kahoot.screens.ConsultarActivity"
-51-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:34:13-54
+51-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:34:13-54
 52            android:exported="false" >
-52-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:35:13-37
+52-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:35:13-37
 53        </activity>
 54        <activity android:name="es.iesjandula.kahoot.screens.ResultadosActivity" >
-54-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:37:9-38:20
-54-->C:\Users\Usuario\OneDrive\Escritorio\Ciclo formativo DAM 2\moviles\Kahoot\app\src\main\AndroidManifest.xml:37:19-61
+54-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:37:9-38:20
+54-->C:\Users\Usuario\Desktop\Kahoot\app\src\main\AndroidManifest.xml:37:19-61
 55        </activity>
 56
 57        <provider

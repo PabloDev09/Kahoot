@@ -2103,6 +2103,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -3222,6 +3223,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBorrar
 id btnContestarJugar
 id btnGuardar
 id btnJugar
@@ -3932,6 +3934,7 @@ string clear_text_end_icon_content_description
 string configurar
 string contestar
 string crear_nueva_pregunta
+string eliminar_pregunta
 string empezar
 string enrique_perez_pablo_mart_nez
 string error_a11y_label
