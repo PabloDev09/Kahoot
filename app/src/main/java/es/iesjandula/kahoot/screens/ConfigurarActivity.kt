@@ -128,12 +128,12 @@ class ConfigurarActivity : AppCompatActivity() {
     private fun asignarValores(valoresEditTextList: List<EditText>): Pregunta
     {
         return Pregunta(
-            txPregunta = valoresEditTextList[0].toString(),
-            respuesta1 =  valoresEditTextList[1].toString(),
-            respuesta2 = valoresEditTextList[2].toString(),
-            respuesta3 = valoresEditTextList[3].toString(),
-            respuesta4 = valoresEditTextList[4].toString(),
-            referenciaRespuestaCorrecta = valoresEditTextList[5].toString().toInt()
+            txPregunta = valoresEditTextList[0].text.toString().trim(),
+            respuesta1 =  valoresEditTextList[1].text.toString().trim(),
+            respuesta2 = valoresEditTextList[2].text.toString().trim(),
+            respuesta3 = valoresEditTextList[3].text.toString().trim(),
+            respuesta4 = valoresEditTextList[4].text.toString().trim(),
+            referenciaRespuestaCorrecta = valoresEditTextList[5].text.toString().trim().toInt()
         )
     }
 
@@ -141,7 +141,7 @@ class ConfigurarActivity : AppCompatActivity() {
     {
         // Limpiar todos los EditText
         for (editText in valoresEditTextList) {
-            editText .text.clear()
+            editText.text.clear()
         }
     }
 

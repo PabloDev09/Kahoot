@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,6 +25,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final Toolbar appBar;
+
+  @NonNull
+  public final ImageView appBarIcon;
 
   @NonNull
   public final Button btnJugar;
@@ -47,11 +51,12 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView tvKahoot;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Toolbar appBar,
-      @NonNull Button btnJugar, @NonNull CardView cardContainerButtons, @NonNull TextView cardTitle,
-      @NonNull TextView footer, @NonNull ConstraintLayout main, @NonNull TextView tvBienvenido,
-      @NonNull TextView tvKahoot) {
+      @NonNull ImageView appBarIcon, @NonNull Button btnJugar,
+      @NonNull CardView cardContainerButtons, @NonNull TextView cardTitle, @NonNull TextView footer,
+      @NonNull ConstraintLayout main, @NonNull TextView tvBienvenido, @NonNull TextView tvKahoot) {
     this.rootView = rootView;
     this.appBar = appBar;
+    this.appBarIcon = appBarIcon;
     this.btnJugar = btnJugar;
     this.cardContainerButtons = cardContainerButtons;
     this.cardTitle = cardTitle;
@@ -94,6 +99,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.appBarIcon;
+      ImageView appBarIcon = ViewBindings.findChildViewById(rootView, id);
+      if (appBarIcon == null) {
+        break missingId;
+      }
+
       id = R.id.btnJugar;
       Button btnJugar = ViewBindings.findChildViewById(rootView, id);
       if (btnJugar == null) {
@@ -132,7 +143,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, appBar, btnJugar,
+      return new ActivityMainBinding((ConstraintLayout) rootView, appBar, appBarIcon, btnJugar,
           cardContainerButtons, cardTitle, footer, main, tvBienvenido, tvKahoot);
     }
     String missingId = rootView.getResources().getResourceName(id);

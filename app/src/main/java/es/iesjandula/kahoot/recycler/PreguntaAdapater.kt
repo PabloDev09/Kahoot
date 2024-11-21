@@ -21,10 +21,10 @@ class PreguntasAdapter(private val context: Context, private val preguntas: List
         val pregunta = preguntas[position]
         holder.preguntaCard.findViewById<TextView>(R.id.tvTitle).append( " ${preguntas[position].idPregunta}")
         holder.preguntaCard.findViewById<TextView>(R.id.tvPregunta).text = preguntas[position].txPregunta
-        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta1).text = preguntas[position].respuesta1
-        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta2).text = preguntas[position].respuesta2
-        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta3).text = preguntas[position].respuesta3
-        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta4).text = preguntas[position].respuesta4
+        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta1).append( " ${preguntas[position].respuesta1}")
+        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta2).append( " ${preguntas[position].respuesta2}")
+        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta3).append( " ${preguntas[position].respuesta3}")
+        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta4).append( " ${preguntas[position].respuesta4}")
     }
 
     override fun getItemCount(): Int {

@@ -3015,8 +3015,6 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable ic_action_name
-drawable ic_app_foreground
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3026,6 +3024,7 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_icon
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3036,7 +3035,10 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_play
+drawable ic_questions
 drawable ic_search_black_24
+drawable ic_settings
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3199,6 +3201,7 @@ id animateToStart
 id antiClockwise
 id anticipate
 id appBar
+id appBarIcon
 id arc
 id asConfigured
 id async
@@ -3871,16 +3874,6 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout view_pregunta_recycler
 menu menu_main
-mipmap ic_app
-mipmap ic_app_background
-mipmap ic_app_round
-mipmap ic_home
-mipmap ic_launcher
-mipmap ic_launcher_round
-mipmap ic_menu
-mipmap ic_play
-mipmap ic_questions
-mipmap ic_settings
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

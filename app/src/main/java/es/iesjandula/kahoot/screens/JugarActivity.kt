@@ -47,12 +47,12 @@ class JugarActivity : AppCompatActivity() {
                     if (j + 1 == respuesta) {
                         // Cambiar color al botón seleccionado
                         valoresBtnList[j].setBackgroundColor(
-                            ContextCompat.getColor(this, R.color.moradononormal)
+                            ContextCompat.getColor(this, R.color.moradonormal)
                         )
                     } else {
                         // Cambiar color a los demás botones
                         valoresBtnList[j].setBackgroundColor(
-                            ContextCompat.getColor(this, R.color.moradonormal)
+                            ContextCompat.getColor(this, R.color.moradononormal)
                         )
                     }
                 }

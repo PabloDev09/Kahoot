@@ -9,7 +9,7 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/appBar"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:elevation="8dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -21,13 +21,21 @@
         app:contentInsetStartWithNavigation="0dp"
         style="@style/Toolbar.TitleText">
 
-</androidx.appcompat.widget.Toolbar>
+        <ImageView
+            android:id="@+id/appBarIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_icon"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
 
     <TextView
         android:id="@+id/tvBienvenido"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/bienvenido"
+        android:textColor="@color/black"
         android:textSize="30sp"
         android:textAlignment="center"
         android:fontFamily="@font/montserrat"
