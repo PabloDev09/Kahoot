@@ -1388,6 +1388,8 @@ int color cardview_dark_background 0x7f05002c
 int color cardview_light_background 0x7f05002d
 int color cardview_shadow_end_color 0x7f05002e
 int color cardview_shadow_start_color 0x7f05002f
+int color colortema 0x7f050309
+int color colortemalight 0x7f05030a
 int color design_bottom_navigation_shadow_color 0x7f050030
 int color design_box_stroke_color 0x7f050031
 int color design_dark_default_color_background 0x7f050032
@@ -2035,8 +2037,6 @@ int color material_timepicker_button_stroke 0x7f0502b3
 int color material_timepicker_clock_text_color 0x7f0502b4
 int color material_timepicker_clockface 0x7f0502b5
 int color material_timepicker_modebutton_tint 0x7f0502b6
-int color moradononormal 0x7f050307
-int color moradonormal 0x7f050308
 int color mtrl_btn_bg_color_selector 0x7f0502b7
 int color mtrl_btn_ripple_color 0x7f0502b8
 int color mtrl_btn_stroke_color_selector 0x7f0502b9

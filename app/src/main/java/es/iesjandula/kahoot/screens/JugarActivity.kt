@@ -2,7 +2,6 @@ package es.iesjandula.kahoot.screens
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
@@ -47,12 +46,12 @@ class JugarActivity : AppCompatActivity() {
                     if (j + 1 == respuesta) {
                         // Cambiar color al botón seleccionado
                         valoresBtnList[j].setBackgroundColor(
-                            ContextCompat.getColor(this, R.color.moradonormal)
+                            ContextCompat.getColor(this, R.color.colortemalight)
                         )
                     } else {
                         // Cambiar color a los demás botones
                         valoresBtnList[j].setBackgroundColor(
-                            ContextCompat.getColor(this, R.color.moradononormal)
+                            ContextCompat.getColor(this, R.color.colortema)
                         )
                     }
                 }
