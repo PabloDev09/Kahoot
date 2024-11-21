@@ -46,8 +46,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/preguntas_creadas"
-        android:textSize="18sp"
-        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
         app:layout_constraintBottom_toTopOf="@+id/cardContainer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/configurarAppbar" />
@@ -65,7 +65,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/configurarAppbar">
+        app:layout_constraintTop_toBottomOf="@id/configurarAppbar"
+        tools:targetApi="p">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -87,99 +88,107 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/etPreguntaInput"
+                android:id="@+id/etPregunta"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:autofillHints=""
-                android:backgroundTint="#5F0F4E"
+                android:backgroundTint="@color/moradonormal"
                 android:fontFamily="@font/montserrat"
                 android:hint="@string/ingresa_tu_pregunta"
                 android:padding="12dp"
-                android:layout_marginTop="10dp"
                 android:textColor="#000000"
+                android:textColorHint="#757575"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvCardTitle" />
 
             <EditText
-                android:id="@+id/etRespuesta1Input"
+                android:id="@+id/etRespuesta1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:autofillHints=""
-                android:backgroundTint="#5F0F4E"
+                android:backgroundTint="@color/moradonormal"
                 android:fontFamily="@font/montserrat"
                 android:hint="@string/respuesta_1"
                 android:padding="12dp"
                 android:textColor="#000000"
+                android:textColorHint="#757575"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/etPreguntaInput" />
+                app:layout_constraintTop_toBottomOf="@id/etPregunta" />
 
             <EditText
-                android:id="@+id/etRespuesta2Input"
+                android:id="@+id/etRespuesta2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:autofillHints="" android:backgroundTint="#5F0F4E"
+                android:autofillHints=""
+                android:backgroundTint="@color/moradonormal"
                 android:fontFamily="@font/montserrat"
                 android:hint="@string/respuesta_2"
                 android:padding="12dp"
                 android:textColor="#000000"
+                android:textColorHint="#757575"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/etRespuesta1Input" />
+                app:layout_constraintTop_toBottomOf="@id/etRespuesta1" />
 
             <EditText
-                android:id="@+id/etRespuesta3Input"
+                android:id="@+id/etRespuesta3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:autofillHints=""
-                android:backgroundTint="#5F0F4E"
+                android:backgroundTint="@color/moradonormal"
                 android:fontFamily="@font/montserrat"
                 android:hint="@string/respuesta_3"
                 android:padding="12dp"
                 android:textColor="#000000"
+                android:textColorHint="#757575"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/etRespuesta2Input" />
+                app:layout_constraintTop_toBottomOf="@id/etRespuesta2" />
 
             <EditText
-                android:id="@+id/etRespuesta4Input"
+                android:id="@+id/etRespuesta4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:autofillHints=""
-                android:backgroundTint="#5F0F4E"
+                android:backgroundTint="@color/moradonormal"
                 android:fontFamily="@font/montserrat"
                 android:hint="@string/respuesta_4"
                 android:padding="12dp"
                 android:textColor="#000000"
+                android:textColorHint="#757575"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/etRespuesta3Input" />
+                app:layout_constraintTop_toBottomOf="@id/etRespuesta3" />
 
             <EditText
-                android:id="@+id/etRespuestaCorrectaInput"
+                android:id="@+id/etRespuestaCorrecta"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:autofillHints="" android:backgroundTint="#5F0F4E"
+                android:autofillHints=""
+                android:backgroundTint="@color/moradonormal"
                 android:fontFamily="@font/montserrat"
                 android:hint="@string/n_mero_de_respuesta_correcta_1_4"
                 android:padding="12dp"
                 android:textColor="#000000"
+                android:textColorHint="#757575"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/etRespuesta4Input" />
+                app:layout_constraintTop_toBottomOf="@id/etRespuesta4" />
 
             <Button
                 android:id="@+id/btnGuardar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:backgroundTint="#5F0F4E"
+                android:backgroundTint="@color/moradononormal"
                 android:fontFamily="@font/montserrat"
                 android:padding="12dp"
                 android:text="@string/guardar_pregunta"
@@ -187,7 +196,7 @@
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/etRespuestaCorrectaInput" />
+                app:layout_constraintTop_toBottomOf="@id/etRespuestaCorrecta" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
@@ -197,7 +206,17 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#00000000"
         android:text="@string/salir"
-        android:textColor="#5F0F4E"
+        android:textColor="@color/moradononormal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:text="@string/ver"
+        android:textColor="@color/moradononormal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

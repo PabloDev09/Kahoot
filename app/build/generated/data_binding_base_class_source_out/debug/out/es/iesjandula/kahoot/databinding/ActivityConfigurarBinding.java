@@ -30,6 +30,9 @@ public final class ActivityConfigurarBinding implements ViewBinding {
   public final Button btnSalir;
 
   @NonNull
+  public final Button btnVer;
+
+  @NonNull
   public final CardView cardContainer;
 
   @NonNull
@@ -45,22 +48,22 @@ public final class ActivityConfigurarBinding implements ViewBinding {
   public final TextView configurarAppbarTitle;
 
   @NonNull
-  public final EditText etPreguntaInput;
+  public final EditText etPregunta;
 
   @NonNull
-  public final EditText etRespuesta1Input;
+  public final EditText etRespuesta1;
 
   @NonNull
-  public final EditText etRespuesta2Input;
+  public final EditText etRespuesta2;
 
   @NonNull
-  public final EditText etRespuesta3Input;
+  public final EditText etRespuesta3;
 
   @NonNull
-  public final EditText etRespuesta4Input;
+  public final EditText etRespuesta4;
 
   @NonNull
-  public final EditText etRespuestaCorrectaInput;
+  public final EditText etRespuestaCorrecta;
 
   @NonNull
   public final TextView tvCardTitle;
@@ -69,27 +72,28 @@ public final class ActivityConfigurarBinding implements ViewBinding {
   public final TextView tvNumeroPreguntasCreadas;
 
   private ActivityConfigurarBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnGuardar,
-      @NonNull Button btnSalir, @NonNull CardView cardContainer,
+      @NonNull Button btnSalir, @NonNull Button btnVer, @NonNull CardView cardContainer,
       @NonNull ConstraintLayout configurar, @NonNull ConstraintLayout configurarAppbar,
       @NonNull ImageView configurarAppbarIcon, @NonNull TextView configurarAppbarTitle,
-      @NonNull EditText etPreguntaInput, @NonNull EditText etRespuesta1Input,
-      @NonNull EditText etRespuesta2Input, @NonNull EditText etRespuesta3Input,
-      @NonNull EditText etRespuesta4Input, @NonNull EditText etRespuestaCorrectaInput,
-      @NonNull TextView tvCardTitle, @NonNull TextView tvNumeroPreguntasCreadas) {
+      @NonNull EditText etPregunta, @NonNull EditText etRespuesta1, @NonNull EditText etRespuesta2,
+      @NonNull EditText etRespuesta3, @NonNull EditText etRespuesta4,
+      @NonNull EditText etRespuestaCorrecta, @NonNull TextView tvCardTitle,
+      @NonNull TextView tvNumeroPreguntasCreadas) {
     this.rootView = rootView;
     this.btnGuardar = btnGuardar;
     this.btnSalir = btnSalir;
+    this.btnVer = btnVer;
     this.cardContainer = cardContainer;
     this.configurar = configurar;
     this.configurarAppbar = configurarAppbar;
     this.configurarAppbarIcon = configurarAppbarIcon;
     this.configurarAppbarTitle = configurarAppbarTitle;
-    this.etPreguntaInput = etPreguntaInput;
-    this.etRespuesta1Input = etRespuesta1Input;
-    this.etRespuesta2Input = etRespuesta2Input;
-    this.etRespuesta3Input = etRespuesta3Input;
-    this.etRespuesta4Input = etRespuesta4Input;
-    this.etRespuestaCorrectaInput = etRespuestaCorrectaInput;
+    this.etPregunta = etPregunta;
+    this.etRespuesta1 = etRespuesta1;
+    this.etRespuesta2 = etRespuesta2;
+    this.etRespuesta3 = etRespuesta3;
+    this.etRespuesta4 = etRespuesta4;
+    this.etRespuestaCorrecta = etRespuestaCorrecta;
     this.tvCardTitle = tvCardTitle;
     this.tvNumeroPreguntasCreadas = tvNumeroPreguntasCreadas;
   }
@@ -133,6 +137,12 @@ public final class ActivityConfigurarBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnVer;
+      Button btnVer = ViewBindings.findChildViewById(rootView, id);
+      if (btnVer == null) {
+        break missingId;
+      }
+
       id = R.id.cardContainer;
       CardView cardContainer = ViewBindings.findChildViewById(rootView, id);
       if (cardContainer == null) {
@@ -159,39 +169,39 @@ public final class ActivityConfigurarBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.etPreguntaInput;
-      EditText etPreguntaInput = ViewBindings.findChildViewById(rootView, id);
-      if (etPreguntaInput == null) {
+      id = R.id.etPregunta;
+      EditText etPregunta = ViewBindings.findChildViewById(rootView, id);
+      if (etPregunta == null) {
         break missingId;
       }
 
-      id = R.id.etRespuesta1Input;
-      EditText etRespuesta1Input = ViewBindings.findChildViewById(rootView, id);
-      if (etRespuesta1Input == null) {
+      id = R.id.etRespuesta1;
+      EditText etRespuesta1 = ViewBindings.findChildViewById(rootView, id);
+      if (etRespuesta1 == null) {
         break missingId;
       }
 
-      id = R.id.etRespuesta2Input;
-      EditText etRespuesta2Input = ViewBindings.findChildViewById(rootView, id);
-      if (etRespuesta2Input == null) {
+      id = R.id.etRespuesta2;
+      EditText etRespuesta2 = ViewBindings.findChildViewById(rootView, id);
+      if (etRespuesta2 == null) {
         break missingId;
       }
 
-      id = R.id.etRespuesta3Input;
-      EditText etRespuesta3Input = ViewBindings.findChildViewById(rootView, id);
-      if (etRespuesta3Input == null) {
+      id = R.id.etRespuesta3;
+      EditText etRespuesta3 = ViewBindings.findChildViewById(rootView, id);
+      if (etRespuesta3 == null) {
         break missingId;
       }
 
-      id = R.id.etRespuesta4Input;
-      EditText etRespuesta4Input = ViewBindings.findChildViewById(rootView, id);
-      if (etRespuesta4Input == null) {
+      id = R.id.etRespuesta4;
+      EditText etRespuesta4 = ViewBindings.findChildViewById(rootView, id);
+      if (etRespuesta4 == null) {
         break missingId;
       }
 
-      id = R.id.etRespuestaCorrectaInput;
-      EditText etRespuestaCorrectaInput = ViewBindings.findChildViewById(rootView, id);
-      if (etRespuestaCorrectaInput == null) {
+      id = R.id.etRespuestaCorrecta;
+      EditText etRespuestaCorrecta = ViewBindings.findChildViewById(rootView, id);
+      if (etRespuestaCorrecta == null) {
         break missingId;
       }
 
@@ -208,9 +218,9 @@ public final class ActivityConfigurarBinding implements ViewBinding {
       }
 
       return new ActivityConfigurarBinding((ConstraintLayout) rootView, btnGuardar, btnSalir,
-          cardContainer, configurar, configurarAppbar, configurarAppbarIcon, configurarAppbarTitle,
-          etPreguntaInput, etRespuesta1Input, etRespuesta2Input, etRespuesta3Input,
-          etRespuesta4Input, etRespuestaCorrectaInput, tvCardTitle, tvNumeroPreguntasCreadas);
+          btnVer, cardContainer, configurar, configurarAppbar, configurarAppbarIcon,
+          configurarAppbarTitle, etPregunta, etRespuesta1, etRespuesta2, etRespuesta3, etRespuesta4,
+          etRespuestaCorrecta, tvCardTitle, tvNumeroPreguntasCreadas);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

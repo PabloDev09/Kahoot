@@ -9,25 +9,31 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/appBar"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#5F0F4E"
-        android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
-        android:title="@string/kahoot"
+        android:elevation="8dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/moradononormal"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style="@style/Toolbar.TitleText"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight"
-        app:menu="@menu/menu_main"/>
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:contentInsetStartWithNavigation="0dp"
+        style="@style/Toolbar.TitleText">
+
+        <ImageView
+            android:id="@+id/appBarIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
 
     <TextView
         android:id="@+id/tvBienvenido"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/bienvenido"
-        android:paddingLeft="20dp"
         android:textSize="30sp"
         android:textAlignment="center"
         android:fontFamily="@font/montserrat"
@@ -35,19 +41,21 @@
         app:layout_constraintEnd_toStartOf="@id/tvKahoot"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appBar" />
+
     <TextView
         android:id="@+id/tvKahoot"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratblack"
         android:text="@string/kahoot"
-        android:textSize="30sp"
         android:textAlignment="textStart"
         android:textColor="@color/moradononormal"
-        android:fontFamily="@font/montserratblack"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/cardContainerButtons"
-        app:layout_constraintStart_toEndOf="@id/tvBienvenido"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBar" />
+        app:layout_constraintStart_toEndOf="@id/tvBienvenido"
+        app:layout_constraintTop_toBottomOf="@+id/appBar"
+        tools:ignore="TextSizeCheck" />
 
 
     <androidx.cardview.widget.CardView
@@ -57,13 +65,14 @@
         android:layout_margin="30dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
-        app:cardBackgroundColor="#FFFFFF"
+        app:cardBackgroundColor="@color/white"
         android:outlineSpotShadowColor="#5F0F4E"
         app:layout_constraintBottom_toTopOf="@+id/footer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appBar"
-        app:cardMaxElevation="12dp">
+        app:cardMaxElevation="12dp"
+        tools:targetApi="p">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -76,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/montserrat"
                 android:text="@string/empezar"
-                android:textColor="#5F0F4E"
+                android:textColor="@color/moradononormal"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +96,7 @@
                 android:id="@+id/btnJugar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#972A74"
+                android:backgroundTint="@color/moradononormal"
                 android:fontFamily="@font/montserrat"
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"

@@ -1,7 +1,19 @@
 <resources>
     <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <!-- Color blanco para el título -->
         <item name="titleTextColor">@android:color/white</item>
+
+        <!-- Fuente personalizada -->
         <item name="android:fontFamily">@font/montserratblack</item>
-        <item name="android:textSize">40sp</item>
+
+        <!-- Tamaño de texto grande -->
+        <item name="android:textSize">32sp</item>
+
+
+        <!-- Espaciado entre letras -->
+        <item name="android:letterSpacing">0.1</item>
+
+        <!-- Enfatizar el título en negritas -->
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>

@@ -12,8 +12,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import es.iesjandula.kahoot.R
+import es.iesjandula.kahoot.database.PreguntaDb
 
 class JugarActivity : AppCompatActivity() {
+    private lateinit var database: PreguntaDb
     @SuppressLint("ResourceAsColor")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +26,8 @@ class JugarActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        database = PreguntaDb.getDatabase(this)
 
         val valoresBtnList: List<Button> = listOf(
             findViewById(R.id.btnRespuesta1),
@@ -56,8 +60,7 @@ class JugarActivity : AppCompatActivity() {
         }
 
         btnSalirJugar.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, MainActivity::class.java))
         }
 
         btnContestarJugar.setOnClickListener {
