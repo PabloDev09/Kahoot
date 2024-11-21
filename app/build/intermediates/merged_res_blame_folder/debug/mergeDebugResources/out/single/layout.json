@@ -12,19 +12,19 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_configurar.xml"
     },
     {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-mergeDebugResources-35:\\layout\\activity_resultados.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_resultados.xml"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-mergeDebugResources-35:/layout/activity_resultados.xml",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_resultados.xml"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-mergeDebugResources-35:\\layout\\activity_consultar.xml",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_consultar.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-mergeDebugResources-35:\\layout\\activity_pregunta.xml",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\activity_pregunta.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-mergeDebugResources-35:\\layout\\view_pregunta_recycler.xml",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.7\\es.iesjandula.kahoot.app-main-38:\\layout\\view_pregunta_recycler.xml"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-mergeDebugResources-35:/layout/view_pregunta_recycler.xml",
-        "source": "es.iesjandula.kahoot.app-main-38:/layout/view_pregunta_recycler.xml"
     }
 ]

@@ -3232,6 +3232,7 @@ id btnRespuesta4
 id btnSalir
 id btnSalirJugar
 id btnVer
+id btnVolverMenu
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3240,6 +3241,7 @@ id cardContainer
 id cardContainerButtons
 id cardContainerPreguntas
 id cardJugarContainer
+id cardResultadosContainer
 id cardTitle
 id carryVelocity
 id center
@@ -3521,6 +3523,8 @@ id radio
 id ratio
 id rectangles
 id report_drawn
+id resultadosAppbar
+id resultadosAppbarTitle
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3649,6 +3653,7 @@ id tvRespuesta1
 id tvRespuesta2
 id tvRespuesta3
 id tvRespuesta4
+id tvResultadoFinal
 id tvSeleccionaRespuesta
 id tvTitle
 id unchecked
@@ -3793,6 +3798,7 @@ layout activity_configurar
 layout activity_consultar
 layout activity_jugar
 layout activity_main
+layout activity_resultados
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4063,6 +4069,8 @@ string respuesta_3_dos
 string respuesta_4
 string respuesta_4_dos
 string respuesta_correcta
+string resultados
+string resultados_obtenidos
 string salir
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -4074,6 +4082,7 @@ string side_sheet_behavior
 string status_bar_notification_info_overflow
 string todo
 string ver
+string volver_menu
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

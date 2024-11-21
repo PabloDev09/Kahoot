@@ -5,16 +5,18 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import es.iesjandula.kahoot.models.Pregunta
+import es.iesjandula.kahoot.models.Respuesta
 
-//Aquí creamos la BD
+// Aquí creamos la BD
 @Database(
-    //Podemos poner una lista de entidades que vaya a tener nuestra BD, de ahí que pongamos []
-    entities = [Pregunta::class],
-    version = 1
+    // Lista de entidades que va a tener nuestra BD
+    entities = [Pregunta::class, Respuesta::class],
+    version = 2
 )
-abstract class PreguntaDb: RoomDatabase() {
-    //las funciones que nos van a devolver los Dao que hemos implementado
+abstract class PreguntaDb : RoomDatabase() {
+    // Las funciones que nos van a devolver los Dao que hemos implementado
     abstract fun preguntaDao(): PreguntaDao
+    abstract fun respuestaDao(): RespuestaDao
 
     companion object {
         @Volatile
@@ -26,7 +28,10 @@ abstract class PreguntaDb: RoomDatabase() {
                     context.applicationContext,
                     PreguntaDb::class.java,
                     "pregunta"
-                ).build()
+                )
+                    // Utilizamos la opción para destruir la base de datos si hay cambios en el esquema
+                    .fallbackToDestructiveMigration()
+                    .build()
                 INSTANCE = instance
                 instance
             }

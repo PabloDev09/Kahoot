@@ -51,6 +51,8 @@
             android:name="es.iesjandula.kahoot.screens.ConsultarActivity"
             android:exported="false" >
         </activity>
+        <activity android:name="es.iesjandula.kahoot.screens.ResultadosActivity" >
+        </activity>
 
         <provider
             android:name="androidx.startup.InitializationProvider"
