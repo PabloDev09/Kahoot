@@ -1,71 +1,87 @@
 [
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxxhdpi_ic_home.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxxhdpi/ic_home.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_consultar.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_consultar.xml"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-xxhdpi_ic_play.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-xxhdpi/ic_play.png"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-mdpi_ic_questions.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-mdpi/ic_questions.png"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable_button_border.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/drawable/button_border.xml"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-xxhdpi_ic_settings.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-xxhdpi/ic_settings.png"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xhdpi_ic_home.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xhdpi/ic_home.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-xxxhdpi_ic_icon.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-xxxhdpi/ic_icon.png"
     },
     {
         "merged": "es.iesjandula.kahoot.app-debug-36:/xml_backup_rules.xml.flat",
         "source": "es.iesjandula.kahoot.app-main-38:/xml/backup_rules.xml"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xhdpi_ic_questions.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xhdpi/ic_questions.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-xhdpi_ic_settings.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-xhdpi/ic_settings.png"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxhdpi_ic_home.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxhdpi/ic_home.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-anydpi_ic_play.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-anydpi/ic_play.xml"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-hdpi_ic_questions.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-hdpi/ic_questions.png"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-xhdpi_ic_play.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-xhdpi/ic_play.png"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-xxhdpi_ic_icon.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-xxhdpi/ic_icon.png"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-xhdpi_ic_icon.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-xhdpi/ic_icon.png"
     },
     {
         "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_main.xml.flat",
         "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_main.xml"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xhdpi_ic_play.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xhdpi/ic_play.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xhdpi_ic_settings.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xhdpi/ic_settings.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_resultados.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_resultados.xml"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxhdpi_ic_menu.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxhdpi/ic_menu.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-anydpi_ic_settings.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-anydpi/ic_settings.xml"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-hdpi_ic_questions.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-hdpi/ic_questions.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-mdpi_ic_settings.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-mdpi/ic_settings.png"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxxhdpi_ic_play.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxxhdpi/ic_play.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-mdpi_ic_play.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-mdpi/ic_play.png"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_jugar.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_jugar.xml"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-debug-36:/menu_menu_main.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/menu/menu_main.xml"
     },
     {
         "merged": "es.iesjandula.kahoot.app-debug-36:/xml_data_extraction_rules.xml.flat",
@@ -76,119 +92,43 @@
         "source": "es.iesjandula.kahoot.app-main-38:/font/montserratblack.otf"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-hdpi_ic_play.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-hdpi/ic_play.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-hdpi_ic_icon.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-hdpi/ic_icon.png"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_configurar.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_configurar.xml"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_view_pregunta_recycler.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/view_pregunta_recycler.xml"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-mdpi_ic_icon.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-mdpi/ic_icon.png"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-hdpi_ic_home.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-hdpi/ic_home.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-xhdpi_ic_questions.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-xhdpi/ic_questions.png"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-hdpi_ic_settings.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-hdpi/ic_settings.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xhdpi_ic_menu.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xhdpi/ic_menu.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_pregunta.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_pregunta.xml"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxhdpi_ic_settings.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxhdpi/ic_settings.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-mdpi_ic_menu.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-mdpi/ic_menu.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxhdpi_ic_play.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxhdpi/ic_play.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-mdpi_ic_settings.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-mdpi/ic_settings.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable_ic_launcher_background.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-mdpi_ic_home.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-mdpi/ic_home.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_jugar.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_jugar.xml"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxxhdpi_ic_questions.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxxhdpi/ic_questions.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/menu_menu_main.xml.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/menu/menu_main.xml"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-hdpi_ic_menu.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-hdpi/ic_menu.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxhdpi_ic_questions.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxhdpi/ic_questions.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-mdpi_ic_questions.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-mdpi/ic_questions.png"
-    },
-    {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-mdpi_ic_play.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-mdpi/ic_play.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-hdpi_ic_settings.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-hdpi/ic_settings.png"
     },
     {
         "merged": "es.iesjandula.kahoot.app-debug-36:/font_montserrat.otf.flat",
         "source": "es.iesjandula.kahoot.app-main-38:/font/montserrat.otf"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-debug-36:/mipmap-xxxhdpi_ic_settings.png.flat",
-        "source": "es.iesjandula.kahoot.app-main-38:/mipmap-xxxhdpi/ic_settings.png"
+        "merged": "es.iesjandula.kahoot.app-debug-36:/layout_activity_configurar.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_configurar.xml"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-anydpi_ic_questions.xml.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-anydpi/ic_questions.xml"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-hdpi_ic_play.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-hdpi/ic_play.png"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-debug-36:/drawable-xxhdpi_ic_questions.png.flat",
+        "source": "es.iesjandula.kahoot.app-main-38:/drawable-xxhdpi/ic_questions.png"
     }
 ]

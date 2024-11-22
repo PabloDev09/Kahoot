@@ -1,7 +1,15 @@
 [
     {
+        "merged": "es.iesjandula.kahoot.app-mergeDebugResources-35:/layout/activity_resultados.xml",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_resultados.xml"
+    },
+    {
         "merged": "es.iesjandula.kahoot.app-mergeDebugResources-35:/layout/activity_main.xml",
         "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "es.iesjandula.kahoot.app-mergeDebugResources-35:/layout/activity_consultar.xml",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_consultar.xml"
     },
     {
         "merged": "es.iesjandula.kahoot.app-mergeDebugResources-35:/layout/activity_configurar.xml",
@@ -12,7 +20,7 @@
         "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_jugar.xml"
     },
     {
-        "merged": "es.iesjandula.kahoot.app-mergeDebugResources-35:/layout/activity_pregunta.xml",
-        "source": "es.iesjandula.kahoot.app-main-38:/layout/activity_pregunta.xml"
+        "merged": "es.iesjandula.kahoot.app-mergeDebugResources-35:/layout/view_pregunta_recycler.xml",
+        "source": "es.iesjandula.kahoot.app-main-38:/layout/view_pregunta_recycler.xml"
     }
 ]
