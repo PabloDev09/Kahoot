@@ -29,12 +29,12 @@ class PreguntasAdapter(private val context: Context, private val preguntas: List
         val pregunta = preguntas[position]
 
         // Configurar las vistas
-        holder.preguntaCard.findViewById<TextView>(R.id.tvTitle).append(" ${position + 1}")
+        holder.preguntaCard.findViewById<TextView>(R.id.tvTitle).text = "Pregunta ${position + 1}"
         holder.preguntaCard.findViewById<TextView>(R.id.tvPregunta).text = pregunta.txPregunta
-        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta1).append(" ${pregunta.respuesta1}")
-        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta2).append(" ${pregunta.respuesta2}")
-        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta3).append(" ${pregunta.respuesta3}")
-        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta4).append(" ${pregunta.respuesta4}")
+        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta1).text = "a) ${pregunta.respuesta1}"
+        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta2).text = "b) ${pregunta.respuesta2}"
+        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta3).text = ("c) ${pregunta.respuesta3}")
+        holder.preguntaCard.findViewById<TextView>(R.id.tvRespuesta4).text = ("d) ${pregunta.respuesta4}")
 
 
         holder.preguntaCard.findViewById<TextView>(R.id.btnBorrar).setOnClickListener {

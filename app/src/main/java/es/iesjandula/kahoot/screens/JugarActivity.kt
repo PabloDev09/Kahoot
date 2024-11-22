@@ -129,7 +129,6 @@ class JugarActivity : AppCompatActivity() {
     }
 
     private fun cargarPreguntas() {
-        // Aquí deberías cargar las preguntas desde la base de datos de la misma manera que antes
         lifecycleScope.launch {
             preguntas = withContext(Dispatchers.IO) {
                 database.preguntaDao().getAllPreguntas().take(5)  // Solo tomar las primeras 5 preguntas

@@ -13,10 +13,10 @@ class ResultadosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultados)
 
-        // Obtener las respuestas correctas desde el Intent
+
         val respuestasCorrectas = intent.getIntExtra("respuestasCorrectas", 0)
 
-        // Mostrar el resultado final
+
         val tvResultadoFinal = findViewById<TextView>(R.id.tvResultadoFinal)
         tvResultadoFinal.text = "Respuestas correctas: $respuestasCorrectas /5"
 
@@ -24,10 +24,11 @@ class ResultadosActivity : AppCompatActivity() {
 
         // Establecer el listener para el botón
         btnVolverMenu.setOnClickListener {
-            // Crear un Intent para iniciar la actividad MainActivity
-            val intent = Intent(this, MainActivity::class.java) // Aquí puedes cambiar 'MainActivity' por la actividad deseada
-            startActivity(intent) // Iniciar la actividad
-            finish() // Finalizar la actividad actual (ResultadosActivity)
+
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            // Finalizar la actividad actual (ResultadosActivity)
+            finish()
         }
     }
 }
