@@ -3016,6 +3016,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_answer
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3526,6 +3527,7 @@ id ratio
 id rectangles
 id report_drawn
 id resultadosAppbar
+id resultadosAppbarIcon
 id resultadosAppbarTitle
 id reverseSawtooth
 id right
@@ -3644,7 +3646,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvBienvenido
 id tvCardTitle
 id tvKahoot
 id tvNumeroPreguntasCreadas

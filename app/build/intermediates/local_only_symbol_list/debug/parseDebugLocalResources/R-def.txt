@@ -5,6 +5,7 @@ color colortema
 color colortemalight
 color red
 color white
+drawable ic_answer
 drawable ic_icon
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -57,8 +58,8 @@ id preguntasAppbarIcon
 id preguntasAppbarTitle
 id preguntasRV
 id resultadosAppbar
+id resultadosAppbarIcon
 id resultadosAppbarTitle
-id tvBienvenido
 id tvCardTitle
 id tvKahoot
 id tvNumeroPreguntasCreadas

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,6 +32,9 @@ public final class ActivityResultadosBinding implements ViewBinding {
   public final ConstraintLayout resultadosAppbar;
 
   @NonNull
+  public final ImageView resultadosAppbarIcon;
+
+  @NonNull
   public final TextView resultadosAppbarTitle;
 
   @NonNull
@@ -38,12 +42,13 @@ public final class ActivityResultadosBinding implements ViewBinding {
 
   private ActivityResultadosBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnVolverMenu, @NonNull CardView cardResultadosContainer,
-      @NonNull ConstraintLayout resultadosAppbar, @NonNull TextView resultadosAppbarTitle,
-      @NonNull TextView tvResultadoFinal) {
+      @NonNull ConstraintLayout resultadosAppbar, @NonNull ImageView resultadosAppbarIcon,
+      @NonNull TextView resultadosAppbarTitle, @NonNull TextView tvResultadoFinal) {
     this.rootView = rootView;
     this.btnVolverMenu = btnVolverMenu;
     this.cardResultadosContainer = cardResultadosContainer;
     this.resultadosAppbar = resultadosAppbar;
+    this.resultadosAppbarIcon = resultadosAppbarIcon;
     this.resultadosAppbarTitle = resultadosAppbarTitle;
     this.tvResultadoFinal = tvResultadoFinal;
   }
@@ -93,6 +98,12 @@ public final class ActivityResultadosBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.resultadosAppbarIcon;
+      ImageView resultadosAppbarIcon = ViewBindings.findChildViewById(rootView, id);
+      if (resultadosAppbarIcon == null) {
+        break missingId;
+      }
+
       id = R.id.resultadosAppbarTitle;
       TextView resultadosAppbarTitle = ViewBindings.findChildViewById(rootView, id);
       if (resultadosAppbarTitle == null) {
@@ -106,7 +117,8 @@ public final class ActivityResultadosBinding implements ViewBinding {
       }
 
       return new ActivityResultadosBinding((ConstraintLayout) rootView, btnVolverMenu,
-          cardResultadosContainer, resultadosAppbar, resultadosAppbarTitle, tvResultadoFinal);
+          cardResultadosContainer, resultadosAppbar, resultadosAppbarIcon, resultadosAppbarTitle,
+          tvResultadoFinal);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

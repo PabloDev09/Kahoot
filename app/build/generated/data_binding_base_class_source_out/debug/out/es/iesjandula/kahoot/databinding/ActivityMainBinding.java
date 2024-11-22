@@ -45,15 +45,12 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ConstraintLayout main;
 
   @NonNull
-  public final TextView tvBienvenido;
-
-  @NonNull
   public final TextView tvKahoot;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Toolbar appBar,
       @NonNull ImageView appBarIcon, @NonNull Button btnJugar,
       @NonNull CardView cardContainerButtons, @NonNull TextView cardTitle, @NonNull TextView footer,
-      @NonNull ConstraintLayout main, @NonNull TextView tvBienvenido, @NonNull TextView tvKahoot) {
+      @NonNull ConstraintLayout main, @NonNull TextView tvKahoot) {
     this.rootView = rootView;
     this.appBar = appBar;
     this.appBarIcon = appBarIcon;
@@ -62,7 +59,6 @@ public final class ActivityMainBinding implements ViewBinding {
     this.cardTitle = cardTitle;
     this.footer = footer;
     this.main = main;
-    this.tvBienvenido = tvBienvenido;
     this.tvKahoot = tvKahoot;
   }
 
@@ -131,12 +127,6 @@ public final class ActivityMainBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-      id = R.id.tvBienvenido;
-      TextView tvBienvenido = ViewBindings.findChildViewById(rootView, id);
-      if (tvBienvenido == null) {
-        break missingId;
-      }
-
       id = R.id.tvKahoot;
       TextView tvKahoot = ViewBindings.findChildViewById(rootView, id);
       if (tvKahoot == null) {
@@ -144,7 +134,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, appBar, appBarIcon, btnJugar,
-          cardContainerButtons, cardTitle, footer, main, tvBienvenido, tvKahoot);
+          cardContainerButtons, cardTitle, footer, main, tvKahoot);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

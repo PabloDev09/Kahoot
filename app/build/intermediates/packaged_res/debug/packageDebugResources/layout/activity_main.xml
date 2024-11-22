@@ -31,31 +31,18 @@
 
 
     <TextView
-        android:id="@+id/tvBienvenido"
+        android:id="@+id/tvKahoot"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/bienvenido"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:fontFamily="@font/montserrat"
-        app:layout_constraintBottom_toTopOf="@+id/cardContainerButtons"
-        app:layout_constraintEnd_toStartOf="@id/tvKahoot"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBar" />
-
-    <TextView
-        android:id="@+id/tvKahoot"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
         android:fontFamily="@font/montserratblack"
+        android:paddingStart="2dp"
         android:text="@string/kahoot"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textColor="@color/colortema"
-        android:textSize="30sp"
+        android:textSize="45sp"
         app:layout_constraintBottom_toTopOf="@+id/cardContainerButtons"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/tvBienvenido"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appBar"
         tools:ignore="TextSizeCheck" />
 
